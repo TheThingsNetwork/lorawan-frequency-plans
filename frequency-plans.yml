@@ -1,0 +1,4 @@
+- id: EU_863_870
+  description: Europe 863-870 MHz
+  base-frequency: 868
+  file: EU_863_870.yml
