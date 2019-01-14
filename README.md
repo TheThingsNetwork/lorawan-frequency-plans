@@ -12,12 +12,12 @@ Frequency plan are defined in YAML files. Most settings in the frequency plan ar
 
 ```yml
 band-id: BAND_ID               # ID of the band
-uplink-channels:               # List of uplink channels
-- frequency: 868100000         # Channel frequency in Hz
+uplink-channels:               # List of uplink channels (zero indexed)
+- frequency: 868100000         # Frequency (Hz)
   min-data-rate: 0             # Mininum data rate index
   max-data-rate: 5             # Maximum data rate index
-  radio: 0                     # Radio index
-downlink-channels:             # List of downlink channels
+  radio: 0                     # Radio index (see below)
+downlink-channels:             # List of downlink channels (zero indexed)
 - frequency: 868100000
   min-data-rate: 0
   max-data-rate: 5
@@ -25,9 +25,11 @@ downlink-channels:             # List of downlink channels
 lora-standard-channel:         # LoRa standard channel (optional)
   frequency: 863000000
   data-rate: 6
+  radio: 0
 fsk-channel:                   # FSK channel (optional)
   frequency: 868800000
   data-rate: 7
+  radio: 0
 time-off-air:                  # Time-off-air (optional)
   fraction: 0.1                # Minimum fraction of the emission time (optional)
   duration: 1s                 # Minimum duration (optional)
@@ -48,7 +50,7 @@ radios:                        # Radio configuration (zero indexed, optional)
     min-frequency: 863000000   # Minimum frequency (Hz)
     max-frequency: 867000000   # Maximum frequency (Hz)
     notch-frequency: 129000    # Notch frequency 126000..250000 (Hz)
-clock-source: 0                # Clock source
+clock-source: 0                # Gateway clock source
 ping-slot:                     # Class B ping slot settings (optional)
   frequency: 869525000
   min-data-rate: 0
