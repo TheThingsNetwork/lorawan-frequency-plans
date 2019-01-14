@@ -3,27 +3,35 @@ uplink-channels:
 - frequency: 868100000
   min-data-rate: 0
   max-data-rate: 5
+  radio: 1
 - frequency: 868300000
   min-data-rate: 0
   max-data-rate: 5
+  radio: 1
 - frequency: 868500000
   min-data-rate: 0
   max-data-rate: 5
+  radio: 1
 - frequency: 867100000
   min-data-rate: 0
   max-data-rate: 5
+  radio: 0
 - frequency: 867300000
   min-data-rate: 0
   max-data-rate: 5
+  radio: 0
 - frequency: 867500000
   min-data-rate: 0
   max-data-rate: 5
+  radio: 0
 - frequency: 867700000
   min-data-rate: 0
   max-data-rate: 5
+  radio: 0
 - frequency: 867900000
   min-data-rate: 0
   max-data-rate: 5
+  radio: 0
 downlink-channels:
 - frequency: 868100000
   min-data-rate: 0
@@ -52,6 +60,8 @@ downlink-channels:
 lora-standard-channel:
   frequency: 863000000
   data-rate: 6
+  radio: 1
 fsk-channel:
   frequency: 868800000
   data-rate: 7
+  radio: 1
