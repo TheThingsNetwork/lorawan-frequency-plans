@@ -65,3 +65,16 @@ fsk-channel:
   frequency: 868800000
   data-rate: 7
   radio: 1
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 867500000
+  rssi-offset: -166
+  tx:
+    min-frequency: 863000000
+    max-frequency: 870000000
+- enable: true
+  chip-type: SX1257
+  frequency: 868500000
+  rssi-offset: -166
+clock-source: 1
