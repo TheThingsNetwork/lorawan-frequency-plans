@@ -4,6 +4,13 @@
   base-frequency: 868
   file: EU_863_870.yml
 
+- id: EU_863_870_TTN
+  name: Europe 863-870 MHz (TTN)
+  description: TTN Community Network frequency plan for Europe, using SF9 for Rx2
+  base-frequency: 868
+  base-id: EU_863_870
+  file: EU_863_870_TTN.yml
+
 - id: US_902_928_FSB_1
   name: United States 902-928 MHz, FSB 1
   description: Default frequency plan for the United States and Canada, using sub-band 1
