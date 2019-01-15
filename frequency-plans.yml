@@ -1,4 +1,5 @@
 - id: EU_863_870
-  description: Europe 863-870 MHz
+  name: Europe 863-870 MHz
+  description: Default frequency plan for Europe
   base-frequency: 868
   file: EU_863_870.yml
