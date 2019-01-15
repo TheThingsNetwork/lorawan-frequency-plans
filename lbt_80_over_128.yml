@@ -1,0 +1,4 @@
+listen-before-talk:
+  rssi-offset: -4
+  rssi-target: -80
+  scan-time: 128000

@@ -47,11 +47,25 @@
   base-frequency: 915
   file: AS_920_923.yml
 
+- id: AS_920_923_LBT
+  name: Asia 920-923 MHz with LBT
+  description: TTN Community Network frequency plan for Asian countries, using frequencies ≤ 923 MHz with listen-before-talk
+  base-frequency: 915
+  base-id: AS_920_923
+  file: lbt_80_over_128.yml
+
 - id: AS_923_925
   name: Asia 923-925 MHz
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≥ 923 MHz
   base-frequency: 915
   file: AS_923_925.yml
+
+- id: AS_923_925_LBT
+  name: Asia 923-925 MHz with LBT
+  description: TTN Community Network frequency plan for Asian countries, using frequencies ≥ 923 MHz with listen-before-talk
+  base-frequency: 915
+  base-id: AS_923_925
+  file: lbt_80_over_128.yml
 
 - id: KR_920_923_TTN
   name: South Korea 920-923 MHz
