@@ -53,11 +53,11 @@
   base-frequency: 915
   file: AS_923_925.yml
 
-- id: KR_920_923
+- id: KR_920_923_TTN
   name: South Korea 920-923 MHz
   description: TTN Community Network frequency plan for South Korea
   base-frequency: 915
-  file: KR_920_923.yml
+  file: KR_920_923_TTN.yml
 
 - id: IN_865_867
   name: India 865-867 MHz
@@ -65,8 +65,8 @@
   base-frequency: 868
   file: IN_865_867.yml
 
-- id: RU_864_870
+- id: RU_864_870_TTN
   name: Russia 864-870 MHz
   description: TTN Community Network frequency plan for Russia
   base-frequency: 868
-  file: RU_864_870.yml
+  file: RU_864_870_TTN.yml
