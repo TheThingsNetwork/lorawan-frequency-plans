@@ -1,0 +1,69 @@
+band-id: KR_920_923
+uplink-channels:
+- frequency: 922100000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 922300000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 922500000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 922700000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 922900000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 923100000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 923300000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+downlink-channels:
+- frequency: 922100000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 922300000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 922500000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 922700000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 922900000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 923100000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 923300000
+  min-data-rate: 0
+  max-data-rate: 5
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 922400000
+  rssi-offset: -166
+  tx:
+    min-frequency: 920900000
+    max-frequency: 923300000
+- enable: true
+  chip-type: SX1257
+  frequency: 923000000
+  rssi-offset: -166
+clock-source: 1
+listen-before-talk:
+  rssi-offset: -4
+  rssi-target: -80
+  scan-time: 128000

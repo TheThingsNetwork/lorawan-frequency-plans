@@ -1,0 +1,72 @@
+band-id: CN_470_510
+uplink-channels:
+- frequency: 486300000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 486500000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 486700000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 486900000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 487100000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 487300000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 487500000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 487700000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+downlink-channels:
+- frequency: 506700000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 506900000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 507100000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 507300000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 507500000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 507700000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 507900000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 508100000
+  min-data-rate: 0
+  max-data-rate: 5
+radios:
+- enable: true
+  chip-type: SX1255
+  frequency: 486600000
+  rssi-offset: -176
+  tx:
+    min-frequency: 470000000
+    max-frequency: 510000000
+- enable: true
+  chip-type: SX1255
+  frequency: 487400000
+  rssi-offset: -176
+clock-source: 1

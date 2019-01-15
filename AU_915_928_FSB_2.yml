@@ -1,0 +1,76 @@
+band-id: AU_915_928
+uplink-channels:
+- frequency: 916800000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 917000000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 917200000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 917400000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 917600000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 917800000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 918000000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 918200000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+downlink-channels:
+- frequency: 923300000
+  min-data-rate: 8
+  max-data-rate: 13
+- frequency: 923900000
+  min-data-rate: 8
+  max-data-rate: 13
+- frequency: 924500000
+  min-data-rate: 8
+  max-data-rate: 13
+- frequency: 925100000
+  min-data-rate: 8
+  max-data-rate: 13
+- frequency: 925700000
+  min-data-rate: 8
+  max-data-rate: 13
+- frequency: 926300000
+  min-data-rate: 8
+  max-data-rate: 13
+- frequency: 926900000
+  min-data-rate: 8
+  max-data-rate: 13
+- frequency: 927500000
+  min-data-rate: 8
+  max-data-rate: 13
+lora-standard-channel:
+  frequency: 917500000
+  data-rate: 12
+  radio: 0
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 917200000
+  rssi-offset: -166
+  tx:
+    min-frequency: 915000000
+    max-frequency: 928000000
+- enable: true
+  chip-type: SX1257
+  frequency: 917900000
+  rssi-offset: -166
+clock-source: 1

@@ -1,0 +1,38 @@
+band-id: IN_865_867
+uplink-channels:
+- frequency: 865062500
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 865402500
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 865985000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+downlink-channels:
+- frequency: 868100000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 868300000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 868500000
+  min-data-rate: 0
+  max-data-rate: 5
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 865200000
+  rssi-offset: -166
+  tx:
+    min-frequency: 865000000
+    max-frequency: 867000000
+    notch-frequency: 129000
+- enable: true
+  chip-type: SX1257
+  frequency: 866385000
+  rssi-offset: -166
+clock-source: 1

@@ -1,0 +1,65 @@
+band-id: RU_864_870
+uplink-channels:
+- frequency: 868900000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 869100000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 864100000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 864300000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 864500000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 864700000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 864900000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+downlink-channels:
+- frequency: 868900000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 869100000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 864100000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 864300000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 864500000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 864700000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 864900000
+  min-data-rate: 0
+  max-data-rate: 5
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 864500000
+  rssi-offset: -166
+  tx:
+    min-frequency: 864000000
+    max-frequency: 870000000
+- enable: true
+  chip-type: SX1257
+  frequency: 869000000
+  rssi-offset: -166
+clock-source: 1
