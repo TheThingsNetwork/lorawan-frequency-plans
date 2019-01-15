@@ -69,7 +69,8 @@ max-eirp: 27                   # Maximum EIRP (optional)
 An index of frequency plans is in `frequency-plans.yml`:
 
 ```yml
-- id: EU_863_870           # ID of the frequency plan
+- id: EU_863_870_TTN       # ID of the frequency plan
+  base-id: EU_863_870      # ID that this frequency plan extends
   name: Region 863-870 MHz # Name of the frequency plan, ending with frequency ranges
   base-frequency: 868      # Base frequency in MHz for hardware support (433, 470, 868 or 915)
   file: EU_863_870.yml     # File of the frqeuency plan definition
