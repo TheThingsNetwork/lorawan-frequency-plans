@@ -1,0 +1,21 @@
+band-id: ISM_2400
+uplink-channels:
+- frequency: 2403000000
+  min-data-rate: 0
+  max-data-rate: 7
+- frequency: 2425000000
+  min-data-rate: 0
+  max-data-rate: 7
+- frequency: 2479000000
+  min-data-rate: 0
+  max-data-rate: 7
+downlink-channels:
+- frequency: 2403000000
+  min-data-rate: 0
+  max-data-rate: 7
+- frequency: 2425000000
+  min-data-rate: 0
+  max-data-rate: 7
+- frequency: 2479000000
+  min-data-rate: 0
+  max-data-rate: 7

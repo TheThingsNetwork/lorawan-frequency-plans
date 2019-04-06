@@ -97,3 +97,9 @@
   description: TTN Community Network frequency plan for Russia
   base-frequency: 868
   file: RU_864_870_TTN.yml
+
+- id: ISM_2400
+  name: LoRa 2.4 GHz
+  description: Default LoRa 2.4 GHz plan for global use
+  base-frequency: 2450
+  file: ISM_2400.yml
