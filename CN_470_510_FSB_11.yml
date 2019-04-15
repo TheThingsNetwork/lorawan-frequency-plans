@@ -32,31 +32,6 @@ uplink-channels:
   min-data-rate: 0
   max-data-rate: 5
   radio: 1
-downlink-channels:
-- frequency: 506700000
-  min-data-rate: 0
-  max-data-rate: 5
-- frequency: 506900000
-  min-data-rate: 0
-  max-data-rate: 5
-- frequency: 507100000
-  min-data-rate: 0
-  max-data-rate: 5
-- frequency: 507300000
-  min-data-rate: 0
-  max-data-rate: 5
-- frequency: 507500000
-  min-data-rate: 0
-  max-data-rate: 5
-- frequency: 507700000
-  min-data-rate: 0
-  max-data-rate: 5
-- frequency: 507900000
-  min-data-rate: 0
-  max-data-rate: 5
-- frequency: 508100000
-  min-data-rate: 0
-  max-data-rate: 5
 radios:
 - enable: true
   chip-type: SX1255
