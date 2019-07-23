@@ -63,7 +63,7 @@ rx2-channel:                   # Rx2 channel (optional)
   max-data-rate: 5
   radio: 0
 rx2-default-data-rate: 0       # Default data rate index of Rx2 (optional)
-max-eirp: 29.15                # Maximum EIRP as ceiling for any (sub-)band value (optional)
+max-eirp: 29.15                # Maximum EIRP to use regardless of band settings (optional)
 ```
 
 An index of frequency plans is in `frequency-plans.yml`:
