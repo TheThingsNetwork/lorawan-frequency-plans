@@ -98,8 +98,8 @@
   base-frequency: 868
   file: RU_864_870_TTN.yml
 
-- id: ISM_2400
-  name: LoRa 2.4 GHz
-  description: Default LoRa 2.4 GHz plan for global use
+- id: ISM_2400_3CH_DRAFT2
+  name: LoRa 2.4 GHz with 3 channels draft 2
+  description: LoRa 2.4 GHz plan with 3 channels for global use draft 2
   base-frequency: 2450
-  file: ISM_2400.yml
+  file: ISM_2400_3CH_DRAFT2.yml
