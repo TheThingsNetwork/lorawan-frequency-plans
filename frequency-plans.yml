@@ -35,6 +35,12 @@
   base-frequency: 915
   file: AU_915_928_FSB_2.yml
 
+- id: AU_915_928_FSB_6
+  name: Australia 915-928 MHz, FSB 6
+  description: Frequency plan for Australia, using sub-band 6, which overlaps with Asia 923-925 MHz
+  base-frequency: 915
+  file: AU_915_928_FSB_6.yml
+
 - id: CN_470_510_FSB_11
   name: China 470-510 MHz, FSB 11
   description: TTN Community Network frequency plan for China, using sub-band 11
