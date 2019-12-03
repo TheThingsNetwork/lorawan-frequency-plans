@@ -73,6 +73,13 @@
   base-id: AS_923_925
   file: lbt_80_over_128.yml
 
+- id: AS_923_925_TTN_AU
+  name: Asia 923-925 MHz (TTN Australia)
+  description: TTN Community Network frequency plan for Asia 923-925 MHz in Australia
+  base-frequency: 915
+  base-id: AS_923_925
+  file: AS_923_925_TTN_AU.yml
+
 - id: KR_920_923_TTN
   name: South Korea 920-923 MHz
   description: TTN Community Network frequency plan for South Korea

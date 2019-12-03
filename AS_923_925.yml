@@ -1,4 +1,7 @@
 band-id: AS_923
+sub-bands:
+- min-frequency: 923200000
+  max-frequency: 924600000
 uplink-channels:
 - frequency: 923200000
   min-data-rate: 0
