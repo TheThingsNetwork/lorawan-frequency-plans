@@ -54,6 +54,13 @@
   base-id: AS_920_923
   file: lbt_80_over_128.yml
 
+- id: AS_920_923_JP
+  name: Asia 923-925 MHz (Japan)
+  description: TTN Community Network frequency plan for Asia 923-925 MHz in Japan
+  base-frequency: 915
+  base-id: AS_923_925
+  file: AS_920_923_JP.yml
+
 - id: AS_923_925
   name: Asia 923-925 MHz
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≥ 923 MHz
