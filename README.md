@@ -13,10 +13,10 @@ Frequency plan are defined in YAML files. Most settings in the frequency plan ar
 ```yml
 band-id: BAND_ID               # ID of the band
 sub-bands:
-- min-frequency: 868000000     # Minimum frequency (Hz)
-  max-frequency: 868600000     # Maximum frequency (Hz)
+- min-frequency: 868000000     # Minimum frequency (Hz, inclusive)
+  max-frequency: 868600000     # Maximum frequency (Hz, inclusive)
   duty-cycle: 0.01             # Duty cycle for this sub-band (optional; default: 1)
-  max-eirp: 16.15              # Maximum EIRP for this sub-band (optional; takes precedence over )
+  max-eirp: 16.15              # Maximum EIRP for this sub-band (optional; takes precedence over frequency plan's max-eirp)
 uplink-channels:               # List of uplink channels (zero indexed)
 - frequency: 868100000         # Frequency (Hz)
   min-data-rate: 0             # Mininum data rate index
@@ -68,7 +68,7 @@ rx2-channel:                   # Rx2 channel (optional)
   max-data-rate: 5
   radio: 0
 rx2-default-data-rate: 0       # Default data rate index of Rx2 (optional)
-max-eirp: 29.15                # Maximum EIRP (optional; used when sub-bands do not have max-eirp)
+max-eirp: 29.15                # Maximum EIRP (optional; used when sub-bands do not have max-eirp, takes precedence over band's default)
 ```
 
 An index of frequency plans is in `frequency-plans.yml`:
