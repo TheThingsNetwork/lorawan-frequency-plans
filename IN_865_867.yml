@@ -16,19 +16,19 @@ uplink-channels:
   min-data-rate: 0
   max-data-rate: 5
   radio: 0
-- frequency: ‭866185000‬
+- frequency: 866185000
   min-data-rate: 0
   max-data-rate: 5
   radio: 1
-- frequency: ‭866385000‬
+- frequency: 866385000
   min-data-rate: 0
   max-data-rate: 5
   radio: 1
-- frequency: ‭866585000‬
+- frequency: 866585000
   min-data-rate: 0
   max-data-rate: 5
   radio: 1
-- frequency: ‭866785000‬
+- frequency: 866785000
   min-data-rate: 0
   max-data-rate: 5
   radio: 1
@@ -45,16 +45,16 @@ downlink-channels:
 - frequency: 865232500
   min-data-rate: 0
   max-data-rate: 5
-- frequency: ‭866185000‬
+- frequency: 866185000
   min-data-rate: 0
   max-data-rate: 5
-- frequency: ‭866385000‬
+- frequency: 866385000
   min-data-rate: 0
   max-data-rate: 5
-- frequency: ‭866585000‬
+- frequency: 866585000
   min-data-rate: 0
   max-data-rate: 5
-- frequency: ‭866785000‬
+- frequency: 866785000
   min-data-rate: 0
   max-data-rate: 5
 radios:
