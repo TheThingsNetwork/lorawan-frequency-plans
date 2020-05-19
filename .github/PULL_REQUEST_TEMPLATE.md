@@ -28,3 +28,11 @@ implementation proposal in the referenced issues.
 -->
 
 ...
+
+#### Checklist
+<!-- Make sure that this pull request is complete. -->
+
+- [ ] Scope: The referenced issue is addressed, there are no unrelated changes.
+- [ ] Compatibility: The changes are backwards compatible, they don't break existing deployments.
+- [ ] Testing: The changes are tested.
+- [ ] Documentation: Relevant documentation is added or updated.
