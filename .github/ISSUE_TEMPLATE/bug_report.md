@@ -13,6 +13,14 @@ otherwise we will not be able to process this bug report.
 
 ...
 
+#### Environment
+
+- **Frequency plan:** enter
+- **Region:** enter
+- **End device brand, model and firmware:** enter
+- **Gateway brand, model and firmware:** enter
+- **Network Server version:** enter
+
 #### Steps to Reproduce
 <!-- How can we reproduce the problem? -->
 
@@ -20,28 +28,13 @@ otherwise we will not be able to process this bug report.
 2. ...
 3. ...
 
-<!--
-Please upload relevant configuration (as .txt).
-If you use the command "ttn-lw-stack config", you can redact sensitive config.
--->
-
 #### What do you see now?
-<!--
-Please paste terminal output, upload logs (as .txt) or upload screenshots.
--->
+<!-- Also upload terminal output and logs (as .txt files) or screenshots if applicable. -->
 
 ...
 
 #### What do you want to see instead?
 <!-- Please add some examples or mock-ups if applicable. -->
-
-...
-
-#### Environment
-<!--
-Your environment: OS/Browser/Gateway/Device/...? Versions? IDs/EUIs?
-Paste the output of "ttn-lw-cli version" or "ttn-lw-stack version" if applicable.
--->
 
 ...
 
