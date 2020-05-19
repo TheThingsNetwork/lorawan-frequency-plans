@@ -8,6 +8,14 @@ otherwise we will not be able to process this issue.
 
 ...
 
+#### Environment
+
+- **Frequency plan:** enter
+- **Region:** enter
+- **End device brand, model and firmware:** enter
+- **Gateway brand, model and firmware:** enter
+- **Network Server version:** enter
+
 #### Steps to Reproduce
 <!-- How can we reproduce the problem? How should the feature work? -->
 
@@ -30,14 +38,6 @@ Describe or link to related APIs, screen designs, packages, etc.
 
 #### What is missing? What do you want to see?
 <!-- Please add some examples or mock-ups if applicable. -->
-
-...
-
-#### Environment
-<!--
-Your environment: OS/Browser/Gateway/Device/...? Versions? IDs/EUIs?
-Paste the output of "ttn-lw-cli version" or "ttn-lw-stack version" if applicable.
--->
 
 ...
 

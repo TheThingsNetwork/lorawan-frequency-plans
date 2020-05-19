@@ -13,6 +13,14 @@ otherwise we will not be able to process this bug report.
 
 ...
 
+#### Environment
+
+- **Frequency plan:** enter
+- **Region:** enter
+- **End device brand, model and firmware:** enter
+- **Gateway brand, model and firmware:** enter
+- **Network Server version:** enter
+
 #### Steps to Reproduce
 <!-- How can we reproduce the problem? -->
 
@@ -34,14 +42,6 @@ Please paste terminal output, upload logs (as .txt) or upload screenshots.
 
 #### What do you want to see instead?
 <!-- Please add some examples or mock-ups if applicable. -->
-
-...
-
-#### Environment
-<!--
-Your environment: OS/Browser/Gateway/Device/...? Versions? IDs/EUIs?
-Paste the output of "ttn-lw-cli version" or "ttn-lw-stack version" if applicable.
--->
 
 ...
 
