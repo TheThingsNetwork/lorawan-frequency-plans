@@ -23,16 +23,8 @@ otherwise we will not be able to process this issue.
 2. ...
 3. ...
 
-<!--
-Please upload relevant configuration (as .txt).
-If you use the command "ttn-lw-stack config", you can redact sensitive config.
--->
-
 #### What is already there? What do you see now?
-<!--
-Please paste terminal output, upload logs (as .txt) or upload screenshots.
-Describe or link to related APIs, screen designs, packages, etc.
--->
+<!-- Also upload terminal output and logs (as .txt files) or screenshots if applicable. -->
 
 ...
 

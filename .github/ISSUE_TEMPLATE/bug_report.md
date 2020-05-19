@@ -28,15 +28,8 @@ otherwise we will not be able to process this bug report.
 2. ...
 3. ...
 
-<!--
-Please upload relevant configuration (as .txt).
-If you use the command "ttn-lw-stack config", you can redact sensitive config.
--->
-
 #### What do you see now?
-<!--
-Please paste terminal output, upload logs (as .txt) or upload screenshots.
--->
+<!-- Also upload terminal output and logs (as .txt files) or screenshots if applicable. -->
 
 ...
 
