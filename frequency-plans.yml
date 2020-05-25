@@ -1,11 +1,11 @@
 - id: EU_863_870
-  name: Europe 863-870 MHz
+  name: Europe 863-870 MHz (SF12 for Rx2)
   description: Default frequency plan for Europe
   base-frequency: 868
   file: EU_863_870.yml
 
 - id: EU_863_870_TTN
-  name: Europe 863-870 MHz (TTN)
+  name: Europe 863-870 MHz (SF9 for Rx2 - recommended)
   description: TTN Community Network frequency plan for Europe, using SF9 for Rx2
   base-frequency: 868
   base-id: EU_863_870
@@ -18,7 +18,7 @@
   file: US_902_928_FSB_1.yml
 
 - id: US_902_928_FSB_2
-  name: United States 902-928 MHz, FSB 2 (TTN)
+  name: United States 902-928 MHz, FSB 2 (used by TTN)
   description: TTN Community Network frequency plan for the United States and Canada, using sub-band 2
   base-frequency: 915
   file: US_902_928_FSB_2.yml
@@ -30,7 +30,7 @@
   file: AU_915_928_FSB_1.yml
 
 - id: AU_915_928_FSB_2
-  name: Australia 915-928 MHz, FSB 2 (TTN)
+  name: Australia 915-928 MHz, FSB 2 (used by TTN)
   description: TTN Community Network frequency plan for Australia, using sub-band 2
   base-frequency: 915
   file: AU_915_928_FSB_2.yml
@@ -74,7 +74,7 @@
   file: lbt_80_over_128.yml
 
 - id: AS_923_925_TTN_AU
-  name: Asia 923-925 MHz (TTN Australia)
+  name: Asia 923-925 MHz (used by TTN Australia)
   description: TTN Community Network frequency plan for Asia 923-925 MHz in Australia
   base-frequency: 915
   base-id: AS_923_925
