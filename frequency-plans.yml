@@ -24,7 +24,7 @@
   name: United States 902-928 MHz, FSB 2 (TTN)
   description: TTN Community Network frequency plan for the United States and Canada, using sub-band 2
   base-frequency: 915
-  country-codes: [[bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
   file: US_902_928_FSB_2.yml
 
 - id: AU_915_928_FSB_1
@@ -59,7 +59,7 @@
   name: Asia 920-923 MHz
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≤ 923 MHz
   base-frequency: 915
-  country-codes: [jp, my, sg]
+  country-codes: [my, sg]
   file: AS_920_923.yml
 
 - id: AS_920_923_LBT
