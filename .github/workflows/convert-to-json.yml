@@ -1,0 +1,41 @@
+name: Convert to JSON
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  convert-to-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: python -m pip install --upgrade pip jq yq
+
+    - name: Convert frequency-plans.yml to json
+      run: |
+        yq . frequency-plans.yml >> frequency-plans-generated.json
+
+    - name: Print result
+      run: cat frequency-plans-generated.json
+
+    - name: Commit files
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git add frequency-plans-generated.json
+        git commit -m "Update frequency-plans-generated.json"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: false
