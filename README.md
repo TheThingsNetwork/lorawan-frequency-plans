@@ -78,6 +78,7 @@ An index of frequency plans is in `frequency-plans.yml`:
   base-id: EU_863_870      # ID that this frequency plan extends
   name: Region 863-870 MHz # Name of the frequency plan, ending with frequency ranges
   base-frequency: 868      # Base frequency in MHz for hardware support (433, 470, 868 or 915)
+  country-codes: []        # List of 2-digit ISO country codes for countries where this plan can be used
   file: EU_863_870.yml     # File of the frqeuency plan definition
 ```
 
