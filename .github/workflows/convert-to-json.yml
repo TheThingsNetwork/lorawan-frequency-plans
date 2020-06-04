@@ -3,8 +3,6 @@ name: Convert to JSON
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   convert-to-json:
@@ -22,11 +20,7 @@ jobs:
       run: python -m pip install --upgrade pip jq yq
 
     - name: Convert frequency-plans.yml to json
-      run: |
-        yq . frequency-plans.yml >> frequency-plans-generated.json
-
-    - name: Print result
-      run: cat frequency-plans-generated.json
+      run: yq . frequency-plans.yml > frequency-plans-generated.json
 
     - name: Commit files
       run: |
