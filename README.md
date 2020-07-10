@@ -1,4 +1,4 @@
-# The Things Network Stack for LoRaWAN Frequency Plans
+# LoRaWAN Frequency Plans for The Things Stack
 
 This repository contains default frequency plans to be used with The Things Network Stack for LoRaWAN.
 
