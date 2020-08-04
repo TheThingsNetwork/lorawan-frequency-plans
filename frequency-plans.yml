@@ -70,6 +70,13 @@
   country-codes: [jp, my, sg]
   file: lbt_80_over_128.yml
 
+- id: AS_923
+  name: Asia 923 MHz with only default channels
+  description: TTN Community Network frequency plan for Asian countries, using default frequencies of the AS923 band
+  base-frequency: 915
+  country-codes: [bn, kh, hk, id, la, tw, th, vn, jp, my, sg]
+  file: AS_923.yml
+
 - id: AS_923_925
   name: Asia 923-925 MHz
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≥ 923 MHz
