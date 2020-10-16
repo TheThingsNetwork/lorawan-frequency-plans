@@ -27,6 +27,48 @@
   country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
   file: US_902_928_FSB_2.yml
 
+- id: US_902_928_FSB_3
+  name: United States 902-928 MHz, FSB 3
+  description: Default frequency plan for the United States and Canada, using sub-band 3
+  base-frequency: 915
+  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  file: US_902_928_FSB_3.yml
+
+- id: US_902_928_FSB_4
+  name: United States 902-928 MHz, FSB 4
+  description: Default frequency plan for the United States and Canada, using sub-band 4
+  base-frequency: 915
+  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  file: US_902_928_FSB_4.yml
+
+- id: US_902_928_FSB_5
+  name: United States 902-928 MHz, FSB 5
+  description: Default frequency plan for the United States and Canada, using sub-band 5
+  base-frequency: 915
+  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  file: US_902_928_FSB_5.yml
+
+- id: US_902_928_FSB_6
+  name: United States 902-928 MHz, FSB 6
+  description: Default frequency plan for the United States and Canada, using sub-band 6
+  base-frequency: 915
+  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  file: US_902_928_FSB_6.yml
+
+- id: US_902_928_FSB_7
+  name: United States 902-928 MHz, FSB 7
+  description: Default frequency plan for the United States and Canada, using sub-band 7
+  base-frequency: 915
+  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  file: US_902_928_FSB_7.yml
+
+- id: US_902_928_FSB_8
+  name: United States 902-928 MHz, FSB 8
+  description: Default frequency plan for the United States and Canada, using sub-band 8
+  base-frequency: 915
+  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  file: US_902_928_FSB_8.yml
+
 - id: AU_915_928_FSB_1
   name: Australia 915-928 MHz, FSB 1
   description: Default frequency plan for Australia, using sub-band 1
@@ -41,12 +83,47 @@
   country-codes: [br, cl, nz, ar, au]
   file: AU_915_928_FSB_2.yml
 
+- id: AU_915_928_FSB_3
+  name: Australia 915-928 MHz, FSB 3
+  description: Default frequency plan for Australia, u3ing sub-band 3
+  base-frequency: 915
+  country-codes: [br, cl, nz, ar, au]
+  file: AU_915_928_FSB_3.yml
+
+- id: AU_915_928_FSB_4
+  name: Australia 915-928 MHz, FSB 4
+  description: Default frequency plan for Australia, using sub-band 4
+  base-frequency: 915
+  country-codes: [br, cl, nz, ar, au]
+  file: AU_915_928_FSB_4.yml
+
+- id: AU_915_928_FSB_5
+  name: Australia 915-928 MHz, FSB 5
+  description: Default frequency plan for Australia, using sub-band 5
+  base-frequency: 915
+  country-codes: [br, cl, nz, ar, au]
+  file: AU_915_928_FSB_5.yml
+
 - id: AU_915_928_FSB_6
   name: Australia 915-928 MHz, FSB 6
   description: Frequency plan for Australia, using sub-band 6, which overlaps with Asia 923-925 MHz
   base-frequency: 915
   country-codes: [br, cl, nz, ar, au]
   file: AU_915_928_FSB_6.yml
+
+- id: AU_915_928_FSB_7
+  name: Australia 915-928 MHz, FSB 7
+  description: Default frequency plan for Australia, using sub-band 7
+  base-frequency: 915
+  country-codes: [br, cl, nz, ar, au]
+  file: AU_915_928_FSB_7.yml
+
+- id: AU_915_928_FSB_8
+  name: Australia 915-928 MHz, FSB 8
+  description: Default frequency plan for Australia, using sub-band 8
+  base-frequency: 915
+  country-codes: [br, cl, nz, ar, au]
+  file: AU_915_928_FSB_8.yml
 
 - id: CN_470_510_FSB_11
   name: China 470-510 MHz, FSB 11
