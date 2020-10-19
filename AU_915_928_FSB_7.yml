@@ -1,0 +1,51 @@
+band-id: AU_915_928
+uplink-channels:
+- frequency: 924800000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 925000000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 925200000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 925400000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 925600000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 925800000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 926000000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 926200000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+lora-standard-channel:
+  frequency: 925500000
+  data-rate: 12
+  radio: 0
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 925200000
+  rssi-offset: -166
+  tx:
+    min-frequency: 915000000
+    max-frequency: 928000000
+- enable: true
+  chip-type: SX1257
+  frequency: 925900000
+  rssi-offset: -166
+clock-source: 1

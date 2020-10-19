@@ -1,0 +1,55 @@
+band-id: US_902_928
+uplink-channels:
+- frequency: 907100000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 0
+- frequency: 907300000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 0
+- frequency: 907500000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 0
+- frequency: 907700000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 0
+- frequency: 907900000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 1
+- frequency: 908100000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 1
+- frequency: 908300000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 1
+- frequency: 908500000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 1
+lora-standard-channel:
+  frequency: 907800000
+  data-rate: 12
+  radio: 0
+dwell-time:
+  uplinks: true
+  downlinks: false
+  duration: 400ms
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 907500000
+  rssi-offset: -166
+  tx:
+    min-frequency: 923000000
+    max-frequency: 928000000
+- enable: true
+  chip-type: SX1257
+  frequency: 908200000
+  rssi-offset: -166
+clock-source: 1
