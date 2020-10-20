@@ -82,6 +82,8 @@ An index of frequency plans is in `frequency-plans.yml`:
   file: EU_863_870.yml     # File of the frqeuency plan definition
 ```
 
+> Country codes are taken from the [LoRaWAN Regional Parameters 1.0.1 Specification](https://lora-alliance.org/sites/default/files/2020-06/rp_2-1.0.1.pdf)
+
 ## Contributing
 
 Thank you for your interest in building this thing together with us. We're really happy with our active community and are glad that you're a part of it.
