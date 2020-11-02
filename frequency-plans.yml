@@ -17,112 +17,112 @@
   name: United States 902-928 MHz, FSB 1
   description: Default frequency plan for the United States and Canada, using sub-band 1
   base-frequency: 915
-  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_1.yml
 
 - id: US_902_928_FSB_2
   name: United States 902-928 MHz, FSB 2 (used by TTN)
   description: TTN Community Network frequency plan for the United States and Canada, using sub-band 2
   base-frequency: 915
-  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_2.yml
 
 - id: US_902_928_FSB_3
   name: United States 902-928 MHz, FSB 3
   description: Default frequency plan for the United States and Canada, using sub-band 3
   base-frequency: 915
-  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_3.yml
 
 - id: US_902_928_FSB_4
   name: United States 902-928 MHz, FSB 4
   description: Default frequency plan for the United States and Canada, using sub-band 4
   base-frequency: 915
-  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_4.yml
 
 - id: US_902_928_FSB_5
   name: United States 902-928 MHz, FSB 5
   description: Default frequency plan for the United States and Canada, using sub-band 5
   base-frequency: 915
-  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_5.yml
 
 - id: US_902_928_FSB_6
   name: United States 902-928 MHz, FSB 6
   description: Default frequency plan for the United States and Canada, using sub-band 6
   base-frequency: 915
-  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_6.yml
 
 - id: US_902_928_FSB_7
   name: United States 902-928 MHz, FSB 7
   description: Default frequency plan for the United States and Canada, using sub-band 7
   base-frequency: 915
-  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_7.yml
 
 - id: US_902_928_FSB_8
   name: United States 902-928 MHz, FSB 8
   description: Default frequency plan for the United States and Canada, using sub-band 8
   base-frequency: 915
-  country-codes: [bo, ca, co, cr, do, ec, gy, mx, pa, py, pe, pr, sr, us, uy, ve]
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_8.yml
 
 - id: AU_915_928_FSB_1
   name: Australia 915-928 MHz, FSB 1
   description: Default frequency plan for Australia, using sub-band 1
   base-frequency: 915
-  country-codes: [br, cl, nz, ar, au]
+  country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_1.yml
 
 - id: AU_915_928_FSB_2
   name: Australia 915-928 MHz, FSB 2 (used by TTN)
   description: TTN Community Network frequency plan for Australia, using sub-band 2
   base-frequency: 915
-  country-codes: [br, cl, nz, ar, au]
+  country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_2.yml
 
 - id: AU_915_928_FSB_3
   name: Australia 915-928 MHz, FSB 3
-  description: Default frequency plan for Australia, u3ing sub-band 3
+  description: Default frequency plan for Australia, using sub-band 3
   base-frequency: 915
-  country-codes: [br, cl, nz, ar, au]
+  country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_3.yml
 
 - id: AU_915_928_FSB_4
   name: Australia 915-928 MHz, FSB 4
   description: Default frequency plan for Australia, using sub-band 4
   base-frequency: 915
-  country-codes: [br, cl, nz, ar, au]
+  country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_4.yml
 
 - id: AU_915_928_FSB_5
   name: Australia 915-928 MHz, FSB 5
   description: Default frequency plan for Australia, using sub-band 5
   base-frequency: 915
-  country-codes: [br, cl, nz, ar, au]
+  country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_5.yml
 
 - id: AU_915_928_FSB_6
   name: Australia 915-928 MHz, FSB 6
   description: Frequency plan for Australia, using sub-band 6, which overlaps with Asia 923-925 MHz
   base-frequency: 915
-  country-codes: [br, cl, nz, ar, au]
+  country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_6.yml
 
 - id: AU_915_928_FSB_7
   name: Australia 915-928 MHz, FSB 7
   description: Default frequency plan for Australia, using sub-band 7
   base-frequency: 915
-  country-codes: [br, cl, nz, ar, au]
+  country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_7.yml
 
 - id: AU_915_928_FSB_8
   name: Australia 915-928 MHz, FSB 8
   description: Default frequency plan for Australia, using sub-band 8
   base-frequency: 915
-  country-codes: [br, cl, nz, ar, au]
+  country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_8.yml
 
 - id: CN_470_510_FSB_11
@@ -151,7 +151,7 @@
   name: Asia 923 MHz with only default channels
   description: TTN Community Network frequency plan for Asian countries, using default frequencies of the AS923 band. This is added only for compatibility. Preferrably use the 920-923 or 923-925 variants
   base-frequency: 915
-  country-codes: [bn, kh, hk, id, la, tw, th, vn, my, sg]
+  country-codes: [au, bo, bn, cl, kh, hk, id, la, tw, th, ve, vn, my, nz, sg, sr, py, pe, uy]
   file: AS_923.yml
 
 - id: AS_923_925
