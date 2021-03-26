@@ -217,6 +217,5 @@
   name: Asia 920-923 MHz (used by TTN Viet Nam)
   description: TTN Community Network frequency plan for Asia 920-923 MHz in Viet Nam
   base-frequency: 915
-  base-id: AS_920_923
   country-codes: [vn]
   file: AS_920_923_TTN_VN.yml
