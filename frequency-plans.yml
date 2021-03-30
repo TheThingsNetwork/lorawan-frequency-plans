@@ -13,6 +13,12 @@
   country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
   file: EU_863_870_TTN.yml
 
+- id: EU_433
+  name: Europe 433 MHz (ITU region 1)
+  description: Default frequency plan for worldwide 433MHz
+  base-frequency: 433
+  file: EU_433.yml
+
 - id: US_902_928_FSB_1
   name: United States 902-928 MHz, FSB 1
   description: Default frequency plan for the United States and Canada, using sub-band 1
