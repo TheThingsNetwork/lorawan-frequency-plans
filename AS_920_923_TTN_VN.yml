@@ -2,8 +2,8 @@ band-id: AS_923
 sub-bands:
 - min-frequency: 920000000
   max-frequency: 923000000
-duty-cycle: 0.01             # Duty cycle for this sub-band (optional; default: 1)
-max-eirp: 16
+  duty-cycle: 0.01             # Duty cycle for this sub-band (optional; default: 1)
+  max-eirp: 16
 uplink-channels:
 - frequency: 921400000
   min-data-rate: 0
