@@ -3,7 +3,7 @@ sub-bands:
 - min-frequency: 920000000
   max-frequency: 923000000
   duty-cycle: 0.01             # Duty cycle for this sub-band (optional; default: 1)
-  max-eirp: 16
+  max-eirp: 23
 uplink-channels:
 - frequency: 921400000
   min-data-rate: 0
@@ -24,7 +24,7 @@ uplink-channels:
 - frequency: 922200000
   min-data-rate: 0
   max-data-rate: 5
-  radio: 0
+  radio: 1
 - frequency: 922400000
   min-data-rate: 0
   max-data-rate: 5
@@ -63,10 +63,10 @@ downlink-channels:
   min-data-rate: 0
   max-data-rate: 5
 
-lora-standard-channel:
-  frequency: 923000000
-  data-rate: 6
-  radio: 1
+#lora-standard-channel:
+#  frequency: 923000000
+ # data-rate: 6
+#  radio: 1
 #fsk-channel:
 #  frequency: 921200000
 #  data-rate: 7
@@ -74,14 +74,14 @@ lora-standard-channel:
 radios:
 - enable: true
   chip-type: SX1257
-  frequency: 921800000
+  frequency: 921600000
   rssi-offset: -166
   tx:
     min-frequency: 920000000
     max-frequency: 923000000
 - enable: true
   chip-type: SX1257
-  frequency: 922800000
+  frequency: 922600000
   rssi-offset: -166
 clock-source: 1
 rx2-channel:                   # Rx2 channel (optional)
