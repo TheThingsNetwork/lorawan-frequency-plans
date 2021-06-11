@@ -168,12 +168,28 @@
   country-codes: [jp]
   file: AS_920_923_JP_Standard.yml
 
+- id: AS_920_923_JP_Standard_DwellTime
+  name: Japan 920-923 MHz with LBT, DwellTime
+  description: Frequency plan for Japan, using frequencies ≤ 923 MHz with LBT, DwellTime
+  base-frequency: 915
+  base-id: AS_920_923_JP_Standard
+  country-codes: [jp]
+  file: AS_920_923_JP_DwellTime.yml
+
 - id: AS_920_923_JP_Separate
   name: Japan 920-923 MHz with LBT
   description: Frequency plan for Japan, using frequencies ≤ 923 MHz with LBT
   base-frequency: 915
   country-codes: [jp]
   file: AS_920_923_JP_Separate.yml
+
+- id: AS_920_923_JP_Separate_DwellTime
+  name: Japan 920-923 MHz with LBT, DwellTime
+  description: Frequency plan for Japan, using frequencies ≤ 923 MHz with LBT, DwellTime
+  base-frequency: 915
+  base-id: AS_920_923_JP_Separate
+  country-codes: [jp]
+  file: AS_920_923_JP_DwellTime.yml
 
 - id: AS_923
   name: Asia 923 MHz with only default channels

@@ -1,0 +1,4 @@
+dwell-time:
+  uplinks: true
+  downlinks: true
+  duration: 400ms
