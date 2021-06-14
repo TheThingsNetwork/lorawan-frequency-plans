@@ -1,6 +1,6 @@
 band-id: AS_920_923_JP_Standard
 sub-bands:
-- min-frequency: 920600000
+- min-frequency: 922000000
   max-frequency: 923400000
   max-eirp: 16
 uplink-channels:
@@ -85,4 +85,4 @@ clock-source: 1
 listen-before-talk:
   rssi-offset: -4
   rssi-target: -80
-  scan-time: 128000
+  scan-time: 5000000

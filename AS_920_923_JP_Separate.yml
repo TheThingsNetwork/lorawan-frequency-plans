@@ -85,4 +85,4 @@ clock-source: 1
 listen-before-talk:
   rssi-offset: -4
   rssi-target: -80
-  scan-time: 128000
+  scan-time: 5000000
