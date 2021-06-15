@@ -97,6 +97,13 @@
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_2.yml
 
+- id: AU_915_928_FSB_2_AND_FSB_3
+  name: Australia 915-928 MHz, FSB 2 and FSB 3
+  description: Default frequency plan for Australia, 16 channel plan using sub-bands 2 and 3
+  base-frequency: 915
+  country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
+  file: AU_915_928_FSB_2_AND_FSB_3.yml
+  
 - id: AU_915_928_FSB_3
   name: Australia 915-928 MHz, FSB 3
   description: Default frequency plan for Australia, using sub-band 3
