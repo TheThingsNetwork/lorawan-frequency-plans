@@ -90,9 +90,19 @@ Thank you for your interest in building this thing together with us. We're reall
 
 The Things Stack uses the `github.com/TheThingsNetwork/lorawan-frequency-plans` as default source for fetching frequency plans. Therefore, contributing to this open source repository makes frequency plans automatically available to Stack deployments with default settings. You can contribute by submitting pull requests. Are you new to GitHub? That's great! [Read here about pull requests](https://help.github.com/articles/about-pull-requests/). Please also use the editor settings as defined in `.editorconfig`.
 
-When submitting a new frequency plan or making changes to an existing frequency plan, please make sure that the band is allowed to be used in the concerning region and that settings respect regional regulations.
+### Local Regulations
 
-The Things Stack supports at least the following bands:
+When submitting a new frequency plan or making changes to an existing frequency plan, please make sure that the band is allowed to be used in the concerning region and that settings respect regional regulations. When submitting a pull request for a new region, please upload or link to a document that describes the local regulations.
+
+### Frequency Plan Naming
+
+The IDs of frequency plans in this repository follow the naming of the corresponding bands in the LoRaWAN Regional Parameters specification. For compatibility reasons, frequency plan IDs can not be modified at a later stage.
+
+The name of the frequency plan should mention the region, band and important specifics about the frequency plan. The description can further explain where and how the frequency plan is used.
+
+### Band ID
+
+The Things Stack supports the following bands:
 
 - `AS_923`: Asia 923 MHz
 - `AU_915_928`: Australia 915 - 928 MHz
@@ -105,4 +115,25 @@ The Things Stack supports at least the following bands:
 - `RU_864_870`: Russia 864 - 870 MHz
 - `US_902_928`: United States 902 - 928 MHz
 
-See the [LoRaWAN Regional Parameters](https://lora-alliance.org/resource-hub) for more band definitions. If you want to contribute to the band settings, please contribute to [The Things Stack for LoRaWAN](https://github.com/TheThingsNetwork/lorawan-stack).
+See the [LoRaWAN Regional Parameters](https://lora-alliance.org/resource-hub) for more details on the band definitions. If you want to contribute to the band definitions in The Things Stack, please contribute to the [TheThingsNetwork/lorawan-stack](https://github.com/TheThingsNetwork/lorawan-stack) repository.
+
+### Spectrum Limitations
+
+Regulatory restrictions for the band can be configured with the `max-eirp`, `duty-cycle`, `dwell-time`, `time-off-air` and `listen-before-talk` settings.
+
+These restrictions can also be specified for sub-bands, which are defined by setting a minimum and maximum frequency, and by configuring the restrictions that apply between these frequencies.
+
+### Radios and Channels
+
+Gateways need to be configured with center frequencies for each radio. Typical concentrator boards have two radios, identified by index `0` and `1`. Each of these radios can handle four 125kHz uplink channels. For an optimal signal quality, these channels should be placed max 400kHz away from the center frequency of the radio. Each of these channels has a `frequency`, a `min-data-rate` and `max-data-rate`.
+
+The `downlink-channels` define the downlink channels corresponding to channels defined under `uplink-channels`.
+
+With `lora-standard-channel` a single fixed-SF uplink channel can be configured. This is typically a 250kHz channel. With `fsk-channel` a single GFSK channel can be configured.
+
+### LoRaWAN Settings
+
+Other LoRaWAN settings that can be configured in a frequency plan:
+
+- RX2 parameters: `rx2-channel` and `rx2-default-data-rate`
+- Class B ping slot: `ping-slot` and `ping-slot-default-data-rate`
