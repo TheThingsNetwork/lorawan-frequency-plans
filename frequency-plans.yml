@@ -162,11 +162,28 @@
   file: lbt_80_over_128.yml
 
 - id: AS_923
-  name: Asia 923 MHz with only default channels
-  description: TTN Community Network frequency plan for Asian countries, using default frequencies of the AS923 band. This is added only for compatibility. Preferrably use the 920-923 or 923-925 variants
+  name: Asia 915–928 MHz (AS923 Group 1) with only default channels
+  description: Compatibility frequency plan for Asian countries with common channels in the 923.0-923.5 MHz sub-band
   base-frequency: 915
-  country-codes: [au, bo, bn, cl, kh, hk, id, la, tw, th, ve, vn, my, nz, sg, sr, py, pe, uy]
   file: AS_923.yml
+
+- id: AS_923_2
+  name: Asia 920-923 MHz (AS923 Group 2) with only default channels
+  description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band
+  base-frequency: 915
+  file: AS_923_2.yml
+
+- id: AS_923_3
+  name: Asia 915–921 MHz (AS923 Group 3) with only default channels
+  description: Compatibility frequency plan for Asian countries with common channels in the 916.5-917.0 MHz sub-band
+  base-frequency: 915
+  file: AS_923_3.yml
+
+- id: AS_923_4
+  name: Asia 917–920 MHz (AS923 Group 4) with only default channels
+  description: Compatibility frequency plan for Asian countries with common channels in the 917.3-917.5 MHz sub-band
+  base-frequency: 915
+  file: AS_923_4.yml
 
 - id: AS_923_925
   name: Asia 923-925 MHz
