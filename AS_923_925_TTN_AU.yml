@@ -2,4 +2,7 @@ sub-bands:
 - min-frequency: 915000000
   max-frequency: 928000000
   duty-cycle: 1
+dwell-time:
+  uplinks: false
+  downlinks: false
 max-eirp: 30
