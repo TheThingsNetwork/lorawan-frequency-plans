@@ -19,19 +19,19 @@ uplink-channels:
 - frequency: 917600000
   min-data-rate: 0
   max-data-rate: 5
-  radio: 0
+  radio: 1
 - frequency: 917800000
   min-data-rate: 0
   max-data-rate: 5
-  radio: 0
+  radio: 1
 - frequency: 918000000
   min-data-rate: 0
   max-data-rate: 5
-  radio: 0
+  radio: 1
 - frequency: 918200000
   min-data-rate: 0
   max-data-rate: 5
-  radio: 0
+  radio: 1
 - frequency: 918400000
   min-data-rate: 0
   max-data-rate: 5
@@ -92,3 +92,11 @@ radios:
   frequency: 919500000
   rssi-offset: -166
 clock-source: 1
+sub-bands:
+- min-frequency: 915000000
+  max-frequency: 928000000
+  duty-cycle: 1
+dwell-time:
+  uplinks: false
+  downlinks: false
+max-eirp: 30
