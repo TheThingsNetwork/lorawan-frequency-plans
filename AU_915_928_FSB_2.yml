@@ -1,4 +1,8 @@
 band-id: AU_915_928
+sub-bands:
+- min-frequency: 915000000
+  max-frequency: 928000000
+  duty-cycle: 1
 uplink-channels:
 - frequency: 916800000
   min-data-rate: 0
@@ -36,6 +40,14 @@ lora-standard-channel:
   frequency: 917500000
   data-rate: 12
   radio: 0
+time-off-air:
+  fraction: 0
+  duration: 0
+dwell-time:
+  uplinks: false
+  downlinks: false
+  duration: 0
+rx2-default-data-rate: 11
 radios:
 - enable: true
   chip-type: SX1257
