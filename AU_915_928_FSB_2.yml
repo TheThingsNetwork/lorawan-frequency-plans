@@ -42,7 +42,7 @@ lora-standard-channel:
   radio: 0
 time-off-air:
   fraction: 0
-  duration: 0
+  duration: 30000000
 dwell-time:
   uplinks: false
   downlinks: false
