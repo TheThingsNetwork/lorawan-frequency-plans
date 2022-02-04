@@ -1,4 +1,4 @@
-band-id: AS_923
+band-id: AS_923_2
 uplink-channels:
 - frequency: 921400000
   min-data-rate: 0
