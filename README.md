@@ -11,7 +11,7 @@ Frequency plans are defined for a band. Bands are specified by the LoRa Alliance
 Frequency plan are defined in YAML files. Most settings in the frequency plan are optional. When not specifying optional settings, the band defaults are used.
 
 ```yml
-band-id: BAND_ID               # ID of the band
+band-id: BAND_ID               # ID of the band (needs to match band-id in the index)
 sub-bands:
 - min-frequency: 868000000     # Minimum frequency (Hz, inclusive)
   max-frequency: 868600000     # Maximum frequency (Hz, inclusive)
@@ -75,7 +75,8 @@ An index of frequency plans is in `frequency-plans.yml`:
 
 ```yml
 - id: EU_863_870_TTN       # ID of the frequency plan
-  base-id: EU_863_870      # ID that this frequency plan extends
+  band-id: EU_863_870      # ID of the LoRaWAN band (needs to match band-id in the definition)
+  base-id: EU_863_870      # ID that this frequency plan extends (refers to id of another frequency plan)
   name: Region 863-870 MHz # Name of the frequency plan, ending with frequency ranges
   base-frequency: 868      # Base frequency in MHz for hardware support (433, 470, 868 or 915)
   country-codes: []        # List of 2-digit ISO country codes for countries where this plan can be used
