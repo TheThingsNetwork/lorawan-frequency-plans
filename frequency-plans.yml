@@ -3,7 +3,68 @@
   name: Europe 863-870 MHz (SF12 for RX2)
   description: Default frequency plan for Europe
   base-frequency: 868
-  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  country-codes:
+    [
+      al,
+      ad,
+      ao,
+      at,
+      bh,
+      be,
+      ba,
+      bw,
+      bg,
+      cg,
+      hr,
+      cy,
+      cz,
+      dk,
+      ee,
+      sz,
+      fi,
+      fr,
+      gr,
+      hu,
+      is,
+      ie,
+      it,
+      lv,
+      ls,
+      li,
+      lt,
+      lu,
+      mg,
+      mw,
+      mt,
+      mu,
+      md,
+      me,
+      mz,
+      na,
+      nl,
+      mk,
+      ph,
+      pl,
+      pt,
+      ro,
+      ru,
+      sa,
+      rs,
+      sc,
+      sk,
+      si,
+      za,
+      es,
+      se,
+      ch,
+      tz,
+      tr,
+      ae,
+      gb,
+      va,
+      zm,
+      zw,
+    ]
   file: EU_863_870.yml
 
 - id: EU_863_870_TTN
@@ -12,7 +73,68 @@
   description: TTN Community Network frequency plan for Europe, using SF9 for RX2
   base-frequency: 868
   base-id: EU_863_870
-  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  country-codes:
+    [
+      al,
+      ad,
+      ao,
+      at,
+      bh,
+      be,
+      ba,
+      bw,
+      bg,
+      cg,
+      hr,
+      cy,
+      cz,
+      dk,
+      ee,
+      sz,
+      fi,
+      fr,
+      gr,
+      hu,
+      is,
+      ie,
+      it,
+      lv,
+      ls,
+      li,
+      lt,
+      lu,
+      mg,
+      mw,
+      mt,
+      mu,
+      md,
+      me,
+      mz,
+      na,
+      nl,
+      mk,
+      ph,
+      pl,
+      pt,
+      ro,
+      ru,
+      sa,
+      rs,
+      sc,
+      sk,
+      si,
+      za,
+      es,
+      se,
+      ch,
+      tz,
+      tr,
+      ae,
+      gb,
+      va,
+      zm,
+      zw,
+    ]
   file: EU_863_870_TTN.yml
 
 - id: EU_863_870_ROAMING_DRAFT
@@ -21,7 +143,68 @@
   description: European 6 channel plan used by major operators to support LoRaWAN Passive Roaming
   base-frequency: 868
   base-id: EU_863_870
-  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  country-codes:
+    [
+      al,
+      ad,
+      ao,
+      at,
+      bh,
+      be,
+      ba,
+      bw,
+      bg,
+      cg,
+      hr,
+      cy,
+      cz,
+      dk,
+      ee,
+      sz,
+      fi,
+      fr,
+      gr,
+      hu,
+      is,
+      ie,
+      it,
+      lv,
+      ls,
+      li,
+      lt,
+      lu,
+      mg,
+      mw,
+      mt,
+      mu,
+      md,
+      me,
+      mz,
+      na,
+      nl,
+      mk,
+      ph,
+      pl,
+      pt,
+      ro,
+      ru,
+      sa,
+      rs,
+      sc,
+      sk,
+      si,
+      za,
+      es,
+      se,
+      ch,
+      tz,
+      tr,
+      ae,
+      gb,
+      va,
+      zm,
+      zw,
+    ]
   file: EU_863_870_ROAMING_DRAFT.yml
 
 - id: EU_433
@@ -186,7 +369,7 @@
 
 - id: AS_923
   band-id: AS_923
-  name: Asia 915–928 MHz (AS923 Group 1) with only default channels
+  name: Asia 915-928 MHz (AS923 Group 1) with only default channels
   description: Compatibility frequency plan for Asian countries with common channels in the 923.0-923.5 MHz sub-band
   base-frequency: 915
   file: AS_923.yml
@@ -198,16 +381,33 @@
   base-frequency: 915
   file: AS_923_2.yml
 
+- id: AS_923_2_TTN
+  band-id: AS_923_2
+  name: Asia 920-923 MHz (AS923 Group 2) (used by TTN)
+  description: TTN Community Network frequency plan for Asia 920-923 MHz (AS923 Group 2)
+  base-frequency: 915
+  base-id: AS_923_2
+  file: AS_923_2_TTN.yml
+
+- id: AS_923_2_TTN_VN
+  band-id: AS_923_2
+  name: Asia 920-923 MHz (AS923 Group 2) (used by TTN Vietnam)
+  description: TTN Community Network frequency plan for Asia 920-923 MHz (AS923 Group 2) in Vietnam
+  base-frequency: 915
+  base-id: AS_923_2_TTN
+  country-codes: [vn]
+  file: AS_923_2_TTN_VN.yml
+
 - id: AS_923_3
   band-id: AS_923_3
-  name: Asia 915–921 MHz (AS923 Group 3) with only default channels
+  name: Asia 915-921 MHz (AS923 Group 3) with only default channels
   description: Compatibility frequency plan for Asian countries with common channels in the 916.5-917.0 MHz sub-band
   base-frequency: 915
   file: AS_923_3.yml
 
 - id: AS_923_4
   band-id: AS_923_4
-  name: Asia 917–920 MHz (AS923 Group 4) with only default channels
+  name: Asia 917-920 MHz (AS923 Group 4) with only default channels
   description: Compatibility frequency plan for Asian countries with common channels in the 917.3-917.5 MHz sub-band
   base-frequency: 915
   file: AS_923_4.yml
