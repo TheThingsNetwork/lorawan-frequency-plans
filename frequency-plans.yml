@@ -169,7 +169,7 @@
   file: AS_920_923_JP_TTN_1.yml
 
 - id: AS_920_923_JP_TTN_2
-  name: Japan 920-923 MHz with LBT(CH24-27,CH35-CH38)
+  name: Japan 920-923 MHz with LBT(channels 24-27 and 35-38)
   description: Frequency plan for Japan, using top and bottom frequencies ≤ 923.4 MHz with LBT.
   base-frequency: 915
   country-codes: [jp]
