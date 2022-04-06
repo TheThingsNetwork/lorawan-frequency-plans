@@ -1,4 +1,4 @@
-band-id: AS_920_923_JP_TTN_3
+band-id: AS_923
 sub-bands:
   - min-frequency: 920600000
     max-frequency: 922000000
