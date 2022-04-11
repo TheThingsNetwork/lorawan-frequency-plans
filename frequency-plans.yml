@@ -141,13 +141,13 @@
 
 - id: CN_470_510_FSB_1
   name: China 470-510 MHz, FSB 1
-  description: TTN Community Network frequency plan for China, using sub-band 1
+  description: Default frequency plan for China, using sub-band 1
   base-frequency: 470
   country-codes: [cn]
   file: CN_470_510_FSB_1.yml
 
 - id: CN_470_510_FSB_11
-  name: China 470-510 MHz, FSB 11
+  name: China 470-510 MHz, FSB 11 (used by TTN)
   description: TTN Community Network frequency plan for China, using sub-band 11
   base-frequency: 470
   country-codes: [cn]
