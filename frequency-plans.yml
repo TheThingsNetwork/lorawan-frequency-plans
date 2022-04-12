@@ -192,6 +192,27 @@
   country-codes: [jp, my, sg]
   file: lbt_80_over_128.yml
 
+- id: AS_920_923_TTN_JP_1
+  name: Japan 920-923 MHz with LBT (channels 31-38)
+  description: Frequency plan for Japan, using continuous frequencies up to 923.4MHz with LBT.
+  base-frequency: 915
+  country-codes: [jp]
+  file: AS_920_923_TTN_JP_1.yml
+
+- id: AS_920_923_TTN_JP_2
+  name: Japan 920-923 MHz with LBT (channels 24-27 and 35-38)
+  description: Frequency plan for Japan, using top and bottom frequencies ≤ 923.4 MHz with LBT.
+  base-frequency: 915
+  country-codes: [jp]
+  file: AS_920_923_TTN_JP_2.yml
+
+- id: AS_920_923_TTN_JP_3
+  name: Japan 920-923 MHz with LBT (channels 24-31)
+  description: Frequency plan for Japan (16 channels), using continuous frequencies from 920.6 MHz, expected to be used with AS_920_923_TTN_JP_1.
+  base-frequency: 915
+  country-codes: [jp]
+  file: AS_920_923_TTN_JP_3.yml
+
 - id: AS_923
   band-id: AS_923
   name: Asia 915–928 MHz (AS923 Group 1) with only default channels
