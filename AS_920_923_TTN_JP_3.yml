@@ -1,0 +1,88 @@
+band-id: AS_923
+sub-bands:
+  - min-frequency: 920600000
+    max-frequency: 922000000
+    max-eirp: 16
+uplink-channels:
+  - frequency: 920600000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 0
+  - frequency: 920800000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 0
+  - frequency: 921000000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 0
+  - frequency: 921200000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 0
+  - frequency: 921400000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 1
+  - frequency: 921600000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 1
+  - frequency: 921800000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 1
+  - frequency: 922000000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 1
+downlink-channels:
+  - frequency: 920600000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 920800000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 921000000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 921200000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 921400000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 921600000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 921800000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 922000000
+    min-data-rate: 0
+    max-data-rate: 5
+lora-standard-channel:
+  frequency: 922100000
+  data-rate: 6
+  radio: 1
+fsk-channel:
+  frequency: 922700000
+  data-rate: 7
+  radio: 1
+radios:
+  - enable: true
+    chip-type: SX1257
+    frequency: 920900000
+    rssi-offset: -166
+    tx:
+      min-frequency: 920600000
+      max-frequency: 922000000
+  - enable: true
+    chip-type: SX1257
+    frequency: 921700000
+    rssi-offset: -166
+clock-source: 1
+listen-before-talk:
+  rssi-offset: -4
+  rssi-target: -80
+  scan-time: 5000000

@@ -159,9 +159,17 @@
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_8.yml
 
+- id: CN_470_510_FSB_1
+  band-id: CN_470_510
+  name: China 470-510 MHz, FSB 1
+  description: Default frequency plan for China, using sub-band 1
+  base-frequency: 470
+  country-codes: [cn]
+  file: CN_470_510_FSB_1.yml
+
 - id: CN_470_510_FSB_11
   band-id: CN_470_510
-  name: China 470-510 MHz, FSB 11
+  name: China 470-510 MHz, FSB 11 (used by TTN)
   description: TTN Community Network frequency plan for China, using sub-band 11
   base-frequency: 470
   country-codes: [cn]
@@ -183,6 +191,27 @@
   base-id: AS_920_923
   country-codes: [jp, my, sg]
   file: lbt_80_over_128.yml
+
+- id: AS_920_923_TTN_JP_1
+  name: Japan 920-923 MHz with LBT (channels 31-38)
+  description: Frequency plan for Japan, using continuous frequencies up to 923.4MHz with LBT.
+  base-frequency: 915
+  country-codes: [jp]
+  file: AS_920_923_TTN_JP_1.yml
+
+- id: AS_920_923_TTN_JP_2
+  name: Japan 920-923 MHz with LBT (channels 24-27 and 35-38)
+  description: Frequency plan for Japan, using top and bottom frequencies ≤ 923.4 MHz with LBT.
+  base-frequency: 915
+  country-codes: [jp]
+  file: AS_920_923_TTN_JP_2.yml
+
+- id: AS_920_923_TTN_JP_3
+  name: Japan 920-923 MHz with LBT (channels 24-31)
+  description: Frequency plan for Japan (16 channels), using continuous frequencies from 920.6 MHz, expected to be used with AS_920_923_TTN_JP_1.
+  base-frequency: 915
+  country-codes: [jp]
+  file: AS_920_923_TTN_JP_3.yml
 
 - id: AS_920_923_TTN_JP_1_LAND_MOBILE
   name: Japan 920-923 MHz with LBT (channels 31-38)
