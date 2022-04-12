@@ -215,7 +215,7 @@
 
 - id: AS_923
   band-id: AS_923
-  name: Asia 915–928 MHz (AS923 Group 1) with only default channels
+  name: Asia 915-928 MHz (AS923 Group 1) with only default channels
   description: Compatibility frequency plan for Asian countries with common channels in the 923.0-923.5 MHz sub-band
   base-frequency: 915
   file: AS_923.yml
@@ -229,14 +229,14 @@
 
 - id: AS_923_3
   band-id: AS_923_3
-  name: Asia 915–921 MHz (AS923 Group 3) with only default channels
+  name: Asia 915-921 MHz (AS923 Group 3) with only default channels
   description: Compatibility frequency plan for Asian countries with common channels in the 916.5-917.0 MHz sub-band
   base-frequency: 915
   file: AS_923_3.yml
 
 - id: AS_923_4
   band-id: AS_923_4
-  name: Asia 917–920 MHz (AS923 Group 4) with only default channels
+  name: Asia 917-920 MHz (AS923 Group 4) with only default channels
   description: Compatibility frequency plan for Asian countries with common channels in the 917.3-917.5 MHz sub-band
   base-frequency: 915
   file: AS_923_4.yml
@@ -255,6 +255,54 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 923.0-923.5 MHz sub-band and dwell time enabled
   base-frequency: 915
   base-id: AS_923
+  file: enable_dwell_time.yml
+
+- id: AS_923_2_NDT
+  band-id: AS_923_2
+  name: Asia 920-923 MHz (AS923 Group 2) with only default channels and dwell time disabled
+  description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time disabled
+  base-frequency: 915
+  base-id: AS_923_2
+  file: disable_dwell_time.yml
+
+- id: AS_923_2_DT
+  band-id: AS_923_2
+  name: Asia 920-923 MHz (AS923 Group 2) with only default channels and dwell time enabled
+  description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time enabled
+  base-frequency: 915
+  base-id: AS_923_2
+  file: enable_dwell_time.yml
+
+- id: AS_923_3_NDT
+  band-id: AS_923_3
+  name: Asia 920-923 MHz (AS923 Group 3) with only default channels and dwell time disabled
+  description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time disabled
+  base-frequency: 915
+  base-id: AS_923_3
+  file: disable_dwell_time.yml
+
+- id: AS_923_3_DT
+  band-id: AS_923_3
+  name: Asia 920-923 MHz (AS923 Group 3) with only default channels and dwell time enabled
+  description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time enabled
+  base-frequency: 915
+  base-id: AS_923_3
+  file: enable_dwell_time.yml
+
+- id: AS_923_4_NDT
+  band-id: AS_923_4
+  name: Asia 920-923 MHz (AS923 Group 4) with only default channels and dwell time disabled
+  description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time disabled
+  base-frequency: 915
+  base-id: AS_923_4
+  file: disable_dwell_time.yml
+
+- id: AS_923_4_DT
+  band-id: AS_923_4
+  name: Asia 920-923 MHz (AS923 Group 4) with only default channels and dwell time enabled
+  description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time enabled
+  base-frequency: 915
+  base-id: AS_923_4
   file: enable_dwell_time.yml
 
 - id: AS_923_925
