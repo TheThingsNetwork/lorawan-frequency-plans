@@ -1,0 +1,4 @@
+sub-bands:
+  - min-frequency: 920600000
+    max-frequency: 922000000
+    max-eirp: 27
