@@ -275,7 +275,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 923.0-923.5 MHz sub-band and dwell time enabled
   base-frequency: 915
   base-id: AS_923
-  file: enable_dwell_time.yml
+  file: enable_dwell_time_400ms.yml
 
 - id: AS_923_2_NDT
   band-id: AS_923_2
@@ -291,7 +291,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time enabled
   base-frequency: 915
   base-id: AS_923_2
-  file: enable_dwell_time.yml
+  file: enable_dwell_time_400ms.yml
 
 - id: AS_923_3_NDT
   band-id: AS_923_3
@@ -307,7 +307,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time enabled
   base-frequency: 915
   base-id: AS_923_3
-  file: enable_dwell_time.yml
+  file: enable_dwell_time_400ms.yml
 
 - id: AS_923_4_NDT
   band-id: AS_923_4
@@ -323,7 +323,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time enabled
   base-frequency: 915
   base-id: AS_923_4
-  file: enable_dwell_time.yml
+  file: enable_dwell_time_400ms.yml
 
 - id: AS_923_925
   band-id: AS_923_925
