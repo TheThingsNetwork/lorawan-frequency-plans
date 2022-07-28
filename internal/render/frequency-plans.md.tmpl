@@ -1,0 +1,11 @@
+# LoRaWAN Frequency Plans for The Things Stack
+
+{{- range . }}
+
+## `{{ .ID }}`: {{ .Name }}
+
+> {{ .Description }}
+
+![{{ .ID }}]({{ .ID }}.yml.svg)
+
+{{ end }}
