@@ -36,6 +36,8 @@ lora-standard-channel:
   frequency: 915900000
   data-rate: 12
   radio: 0
+dwell-time:
+  downlinks: false
 radios:
 - enable: true
   chip-type: SX1257
