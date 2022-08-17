@@ -1,0 +1,52 @@
+band-id: MA_869_870_DRAFT
+uplink-channels:
+- frequency: 869100000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 869300000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 869700000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 869900000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+downlink-channels:
+- frequency: 869100000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 869300000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 869700000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 869900000
+  min-data-rate: 0
+  max-data-rate: 5
+lora-standard-channel:
+  frequency: 869300000
+  data-rate: 6
+  radio: 1
+fsk-channel:
+  frequency: 869800000
+  data-rate: 7
+  radio: 1
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 869500000
+  rssi-offset: -166
+  tx:
+    min-frequency: 869000000
+    max-frequency: 870000000
+- enable: true
+  chip-type: SX1257
+  frequency: 869500000
+  rssi-offset: -166
+clock-source: 1

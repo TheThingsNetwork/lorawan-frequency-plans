@@ -368,6 +368,14 @@
   country-codes: [kr]
   file: KR_920_923_TTN.yml
 
+- id: MA_869_870_DRAFT
+  band-id: MA_869_870_DRAFT
+  name: Morocco 869-870 MHz
+  description: Draft frequency plan for Morocco, with 4 channels
+  base-frequency: 868
+  country-codes: [ma]
+  file: MA_869_870_DRAFT.yml
+
 - id: IN_865_867
   band-id: IN_865_867
   name: India 865-867 MHz
