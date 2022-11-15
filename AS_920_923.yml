@@ -78,6 +78,6 @@ radios:
     max-frequency: 923400000
 - enable: true
   chip-type: SX1257
-  frequency: 922000000
+  frequency: 922100000
   rssi-offset: -166
 clock-source: 1
