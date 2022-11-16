@@ -65,10 +65,6 @@ lora-standard-channel:
   frequency: 922100000
   data-rate: 6
   radio: 1
-fsk-channel:
-  frequency: 922700000
-  data-rate: 7
-  radio: 1
 radios:
   - enable: true
     chip-type: SX1257
@@ -79,7 +75,7 @@ radios:
       max-frequency: 922000000
   - enable: true
     chip-type: SX1257
-    frequency: 921700000
+    frequency: 921800000
     rssi-offset: -166
 clock-source: 1
 listen-before-talk:

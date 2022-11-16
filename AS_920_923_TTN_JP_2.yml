@@ -62,12 +62,8 @@ downlink-channels:
     min-data-rate: 0
     max-data-rate: 5
 lora-standard-channel:
-  frequency: 922100000
+  frequency: 923100000
   data-rate: 6
-  radio: 1
-fsk-channel:
-  frequency: 922700000
-  data-rate: 7
   radio: 1
 radios:
   - enable: true
