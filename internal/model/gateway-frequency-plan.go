@@ -104,5 +104,46 @@ func (f FrequencyPlanGatewayModifier) Parse(file string) (Definition, error) {
 }
 
 func (f FrequencyPlanGatewayModifier) Validate() error {
+	if f.SubBands != nil {
+		for i, subBand := range *f.SubBands {
+			if err := subBand.Validate(); err != nil {
+				return fmt.Errorf("SubBand %d: %w", i, err)
+			}
+		}
+	}
+	if f.Channels != nil {
+		for i, channel := range *f.Channels {
+			if err := channel.Validate(); err != nil {
+				return fmt.Errorf("Channel %d: %w", i, err)
+			}
+		}
+	}
+	if f.LoRaStandardChannel != nil {
+		if err := f.LoRaStandardChannel.Validate(); err != nil {
+			return fmt.Errorf("LoRaStandardChannel: %w", err)
+		}
+	}
+	if f.FSKChannel != nil {
+		if err := f.FSKChannel.Validate(); err != nil {
+			return fmt.Errorf("FSKChannel: %w", err)
+		}
+	}
+	if f.TimeOffAir != nil {
+		if err := f.TimeOffAir.Validate(); err != nil {
+			return fmt.Errorf("TimeOffAir: %w", err)
+		}
+	}
+	if f.DwellTime != nil {
+		if err := f.DwellTime.Validate(); err != nil {
+			return fmt.Errorf("DwellTime: %w", err)
+		}
+	}
+	if f.Radios != nil {
+		for i, radio := range *f.Radios {
+			if err := radio.Validate(); err != nil {
+				return fmt.Errorf("Radio %d: %w", i, err)
+			}
+		}
+	}
 	return nil
 }

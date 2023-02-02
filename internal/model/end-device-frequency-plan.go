@@ -133,5 +133,64 @@ func (f FrequencyPlanEndDeviceModifier) Parse(file string) (Definition, error) {
 }
 
 func (f FrequencyPlanEndDeviceModifier) Validate() error {
+	if f.SubBands != nil {
+		for i, subBand := range *f.SubBands {
+			if err := subBand.Validate(); err != nil {
+				return fmt.Errorf("SubBand %d: %w", i, err)
+			}
+		}
+	}
+	if f.Channels != nil {
+		for i, channel := range *f.Channels {
+			if err := channel.Validate(); err != nil {
+				return fmt.Errorf("Channel %d: %w", i, err)
+			}
+		}
+	}
+	if f.LoRaStandardChannel != nil {
+		if err := f.LoRaStandardChannel.Validate(); err != nil {
+			return fmt.Errorf("LoRaStandardChannel: %w", err)
+		}
+	}
+	if f.FSKChannel != nil {
+		if err := f.FSKChannel.Validate(); err != nil {
+			return fmt.Errorf("FSKChannel: %w", err)
+		}
+	}
+	if f.TimeOffAir != nil {
+		if err := f.TimeOffAir.Validate(); err != nil {
+			return fmt.Errorf("TimeOffAir: %w", err)
+		}
+	}
+	if f.DwellTime != nil {
+		if err := f.DwellTime.Validate(); err != nil {
+			return fmt.Errorf("DwellTime: %w", err)
+		}
+	}
+	if f.ListenBeforeTalk != nil {
+		if err := f.ListenBeforeTalk.Validate(); err != nil {
+			return fmt.Errorf("ListenBeforeTalk: %w", err)
+		}
+	}
+	if f.PingSlot != nil {
+		if err := f.PingSlot.Validate(); err != nil {
+			return fmt.Errorf("PingSlot: %w", err)
+		}
+	}
+	if f.PingSlotDefaultDataRate != nil {
+		if err := validateDataRate(*f.PingSlotDefaultDataRate); err != nil {
+			return fmt.Errorf("PingSlotDefaultDataRate: %w", err)
+		}
+	}
+	if f.RX2Channel != nil {
+		if err := f.RX2Channel.Validate(); err != nil {
+			return fmt.Errorf("RX2Channel: %w", err)
+		}
+	}
+	if f.RX2DefaultDataRate != nil {
+		if err := validateDataRate(*f.RX2DefaultDataRate); err != nil {
+			return fmt.Errorf("RX2DefaultDataRate: %w", err)
+		}
+	}
 	return nil
 }
