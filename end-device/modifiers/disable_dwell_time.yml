@@ -1,3 +1,4 @@
 dwell-time:
   uplinks: false
   downlinks: false
+  duration: 0ms

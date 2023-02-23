@@ -1,0 +1,43 @@
+band-id: AS_923
+sub-bands:
+- min-frequency: 922000000
+  max-frequency: 923400000
+channels:
+- uplink-frequency: 923200000
+  downlink-frequency: 923200000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 923400000
+  downlink-frequency: 923400000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 922200000
+  downlink-frequency: 922200000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 922400000
+  downlink-frequency: 922400000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 922600000
+  downlink-frequency: 922600000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 922800000
+  downlink-frequency: 922800000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 923000000
+  downlink-frequency: 923000000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 922000000
+  downlink-frequency: 922000000
+  min-data-rate: 0
+  max-data-rate: 5
+lora-standard-channel:
+  frequency: 922100000
+  data-rate: 6
+fsk-channel:
+  frequency: 921800000
+  data-rate: 7

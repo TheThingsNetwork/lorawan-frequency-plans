@@ -1,0 +1,24 @@
+# LoRaWAN Frequency Plans for The Things Stack
+
+# End device frequency plans
+{{- range .EndDeviceDescriptions }}
+{{ if .BaseID }}
+## `{{ .ID }}`: {{ .Name }}
+Based on [{{ .BaseID }}](##{{ .BaseID }}) and modified by {{ range .Modifiers }}[{{ . }}](../end-device/modifiers/{{ . }}){{ end }}{{ else }}
+## [`{{ .ID }}`](../end-device/{{ .File }}): {{ .Name }}{{ end }} 
+
+>> {{ .Description }}
+
+![{{ .ID }}](images/end-device/{{ .ID }}.svg){{ end }}
+
+# Gateway frequency plans
+{{- range .GatewayDescriptions }}
+{{ if .BaseID }}
+## `{{ .ID }}`: {{ .Name }}
+Based on {{ .BaseID }} and modified by {{ range .Modifiers }}[{{ . }}](../gateway/modifiers/{{ . }}){{ end }}
+{{ else }}
+## [`{{ .ID }}`](../gateway/{{ .File }}): {{ .Name }}{{ end }} 
+
+>> {{ .Description }}
+
+![{{ .ID }}](images/gateway/{{ .ID }}.svg){{ end }}

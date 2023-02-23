@@ -1,0 +1,31 @@
+
+band-id: EU_863_870
+sub-bands:
+  - min-frequency: 867100000
+    max-frequency: 868500000
+channels:
+- uplink-frequency: 868100000
+  downlink-frequency: 868100000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 868300000
+  downlink-frequency: 868300000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 868500000
+  downlink-frequency: 868500000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 867100000
+  downlink-frequency: 867100000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 867300000
+  downlink-frequency: 867300000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 867900000
+  downlink-frequency: 867900000
+  min-data-rate: 0
+  max-data-rate: 5
+

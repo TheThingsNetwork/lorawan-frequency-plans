@@ -1,0 +1,74 @@
+band-id: EU_863_870
+sub-bands:
+  - min-frequency: 867000000 # TODO: Verify this
+    max-frequency: 869000000
+channels:
+- uplink-frequency: 868100000
+  downlink-frequency: 868100000
+  min-data-rate: SF12BW125
+  max-data-rate: SF7BW125
+  radio: 0
+  default: true
+- uplink-frequency: 868300000
+  downlink-frequency: 868300000
+  min-data-rate: SF12BW125
+  max-data-rate: SF7BW125
+  radio: 0
+  default: true
+- uplink-frequency: 868500000
+  downlink-frequency: 868500000
+  min-data-rate: SF12BW125
+  max-data-rate: SF7BW125
+  radio: 0
+  default: true
+- uplink-frequency: 867100000
+  downlink-frequency: 867100000
+  min-data-rate: SF12BW125
+  max-data-rate: SF7BW125
+  radio: 0
+  default: true
+- uplink-frequency: 867300000
+  downlink-frequency: 867300000
+  min-data-rate: SF12BW125
+  max-data-rate: SF7BW125
+  radio: 0
+  default: true
+- uplink-frequency: 867500000
+  downlink-frequency: 867500000
+  min-data-rate: SF12BW125
+  max-data-rate: SF7BW125
+  radio: 0
+  default: true
+- uplink-frequency: 867700000
+  downlink-frequency: 867700000
+  min-data-rate: SF12BW125
+  max-data-rate: SF7BW125
+  radio: 0
+  default: true
+- uplink-frequency: 867900000
+  downlink-frequency: 867900000
+  min-data-rate: SF12BW125
+  max-data-rate: SF7BW125
+  radio: 0
+  default: true
+lora-standard-channel:
+  frequency: 868300000
+  data-rate: SF7BW250
+  radio: 1
+fsk-channel:
+  frequency: 868800000
+  data-rate: FSK50 # TODO: verify
+  radio: 1
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 867500000
+  rssi-offset: -166
+  tx:
+    min-frequency: 863000000
+    max-frequency: 870000000
+- enable: true
+  chip-type: SX1257
+  frequency: 868500000
+  rssi-offset: -166
+clock-source: 1

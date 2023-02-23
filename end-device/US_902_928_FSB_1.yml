@@ -1,0 +1,36 @@
+band-id: US_902_928
+sub-bands:
+  - min-frequency: 902300000
+    max-frequency: 903700000
+channels:
+- uplink-frequency: 902300000
+  min-data-rate: 0
+  max-data-rate: 3
+- uplink-frequency: 902500000
+  min-data-rate: 0
+  max-data-rate: 3
+- uplink-frequency: 902700000
+  min-data-rate: 0
+  max-data-rate: 3
+- uplink-frequency: 902900000
+  min-data-rate: 0
+  max-data-rate: 3
+- uplink-frequency: 903100000
+  min-data-rate: 0
+  max-data-rate: 3
+- uplink-frequency: 903300000
+  min-data-rate: 0
+  max-data-rate: 3
+- uplink-frequency: 903500000
+  min-data-rate: 0
+  max-data-rate: 3
+- uplink-frequency: 903700000
+  min-data-rate: 0
+  max-data-rate: 3
+lora-standard-channel:
+  frequency: 903000000
+  data-rate: 12
+dwell-time:
+  uplinks: true
+  downlinks: false
+  duration: 400ms

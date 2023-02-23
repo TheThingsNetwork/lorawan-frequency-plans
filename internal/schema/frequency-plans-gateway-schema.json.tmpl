@@ -1,0 +1,231 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Frequency Plan",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "band-id": {
+      "type": "string",
+      "description": "ID of the band (needs to match band-id in the index)",
+      "enum": [{{.BandIDs}}]
+    },
+    "sub-bands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "min-frequency": {
+            "type": "integer",
+            "description": "Minimum frequency [Hz] (inclusive)"
+          },
+          "max-frequency": {
+            "type": "integer",
+            "description": "Maximum frequency [Hz] (inclusive)"
+          },
+          "duty-cycle": {
+            "type": "number",
+            "description": "Duty cycle for this sub-band (optional; default: 1)"
+          },
+          "max-eirp": {
+            "type": "number",
+            "description": "Maximum EIRP for this sub-band (optional; takes precedence over frequency plan's max-eirp)"
+          }
+        },
+        "required": ["min-frequency", "max-frequency"]
+      }
+    },
+    "channels": {
+      "type": "array",
+      "description": "List of uplink channels (zero indexed)",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "uplink-frequency": {
+            "type": "integer",
+            "description": "Uplink frequency [Hz]"
+          },
+          "downlink-frequency": {
+            "type": "integer",
+            "description": "Downlink frequency [Hz]"
+          },
+          "min-data-rate": {
+            "type": "string",
+            "description": "Minimum data rate index",
+            "enum": ["SF7BW125","SF7BW250","SF8BW125","SF8BW500","SF9BW125","SF9BW500","SF10BW125","SF10BW500","SF11BW125","SF11BW500","SF12BW125","SF12BW500"]
+          },
+          "max-data-rate": {
+            "type": "string",
+            "description": "Maximum data rate index",
+            "enum": ["SF7BW125","SF7BW250","SF8BW125","SF8BW500","SF9BW125","SF9BW500","SF10BW125","SF10BW500","SF11BW125","SF11BW500","SF12BW125","SF12BW500"]
+          },
+          "radio": {
+            "type": "integer",
+            "description": "Radio index"
+          },
+          "default": {
+            "type": "boolean",
+            "description": "Channel is defined by RP"
+          }
+        },
+        "required": ["uplink-frequency", "min-data-rate", "max-data-rate", "radio"]
+      }
+    },
+    "lora-standard-channel": {
+      "type": "object",
+      "description": "LoRa standard channel (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "frequency": {
+          "type": "integer",
+          "description": "Frequency [Hz]"
+        },
+        "data-rate": {
+          "type": "string",
+          "description": "Data rate index",
+          "enum": ["SF7BW125","SF7BW250","SF8BW125","SF8BW500","SF9BW125","SF9BW500","SF10BW125","SF10BW500","SF11BW125","SF11BW500","SF12BW125","SF12BW500"]
+        },
+        "radio": {
+          "type": "integer",
+          "description": "Radio index"
+        }
+      },
+      "required": ["frequency", "data-rate", "radio"]
+    },
+    "fsk-channel": {
+      "type": "object",
+      "description": "FSK channel (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "frequency": {
+          "type": "integer",
+          "description": "Frequency [Hz]"
+        },
+        "data-rate": {
+          "type": "string",
+          "description": "Data rate index",
+          "enum": ["FSK50"]
+        },
+        "radio": {
+          "type": "integer",
+          "description": "Radio index"
+        }
+      },
+      "required": ["frequency", "data-rate", "radio"]
+    },
+    "time-off-air": {
+      "type": "object",
+      "description": "Time-off-air (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "fraction": {
+          "type": "number",
+          "description": "Minimum fraction of the emission time (optional)"
+        },
+        "duration": {
+          "type": "string",
+          "description": "Minimum duration (optional)"
+        }
+      }
+    },
+    "dwell-time": {
+      "type": "object",
+      "description": "Dwell time (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "uplinks": {
+          "type": "boolean",
+          "description": "Enabled for uplink"
+        },
+        "downlinks": {
+          "type": "boolean",
+          "description": "Enabled for downlink"
+        },
+        "duration": {
+          "type": "string",
+          "description": "Duration"
+        }
+      },
+      "required": ["uplinks", "downlinks", "duration"]
+    },
+    "listen-before-talk": {
+      "type": "object",
+      "description": "Listen-before-talk (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "rssi-offset": {
+          "type": "integer",
+          "description": "RSSI offset [dbm]"
+        },
+        "rssi-target": {
+          "type": "integer",
+          "description": "RSSI target [dbm]"
+        },
+        "scan-time": {
+          "type": "integer",
+          "description": "Scan time [nanoseconds]"
+        }
+      },
+      "required": ["rssi-offset", "rssi-target", "scan-time"]
+    },
+    "radios": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "enable": {
+            "type": "boolean",
+            "description": "Enable the radio"
+          },
+          "chip-type": {
+            "type": "string",
+            "description": "Chip type",
+            "enum": ["SX1255", "SX1257"]
+          },
+          "frequency": {
+            "type": "integer",
+            "description": "Center frequency [Hz]"
+          },
+          "rssi-offset": {
+            "type": "integer",
+            "description": "RSSI offset [dbm]"
+          },
+          "tx": {
+            "type": "object",
+            "description": "Radio transmission configuration (optional)",
+            "additionalProperties": false,
+            "properties": {
+              "min-frequency": {
+                "type": "integer",
+                "description": "Minimum frequency [Hz]"
+              },
+              "max-frequency": {
+                "type": "integer",
+                "description": "Maximum frequency [Hz]"
+              },
+              "notch-frequency": {
+                "type": "integer",
+                "description": "Notch frequency 126000..250000 [Hz] (optional)",
+                "minimum": 126000,
+                "maximum": 250000
+              }
+            },
+            "required": ["min-frequency", "max-frequency"]
+          }
+        },
+        "required": ["enable", "chip-type", "frequency", "rssi-offset"]
+      }
+    },
+    "clock-source": {
+      "type": "integer",
+      "description": "Gateway clock source"
+    },
+    "max-eirp": {
+      "type": "number",
+      "description": "Maximum EIRP (optional; used when sub-bands do not have max-eirp, takes precedence over band's default)"
+    }
+  },
+  "required": ["band-id", "sub-bands", "channels"]
+}

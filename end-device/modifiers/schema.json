@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Frequency Plan",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "sub-bands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "min-frequency": {
+            "type": "integer",
+            "description": "Minimum frequency [Hz] (inclusive)"
+          },
+          "max-frequency": {
+            "type": "integer",
+            "description": "Maximum frequency [Hz] (inclusive)"
+          },
+          "duty-cycle": {
+            "type": "number",
+            "description": "Duty cycle for this sub-band (optional; default: 1)"
+          },
+          "max-eirp": {
+            "type": "number",
+            "description": "Maximum EIRP for this sub-band (optional; takes precedence over frequency plan's max-eirp)"
+          }
+        },
+        "required": ["min-frequency", "max-frequency"]
+      }
+    },
+    "channels": {
+      "type": "array",
+      "description": "List of uplink channels (zero indexed)",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "uplink-frequency": {
+            "type": "integer",
+            "description": "Uplink frequency [Hz]"
+          },
+          "downlink-frequency": {
+            "type": "integer",
+            "description": "Downlink frequency [Hz] (optional)"
+          },
+          "min-data-rate": {
+            "type": "integer",
+            "description": "Minimum data rate index"
+          },
+          "max-data-rate": {
+            "type": "integer",
+            "description": "Maximum data rate index"
+          },
+          "default": {
+            "type": "boolean",
+            "description": "Channel is defined by RP"
+          }
+        },
+        "required": ["uplink-frequency", "min-data-rate", "max-data-rate"]
+      }
+    },
+    "lora-standard-channel": {
+      "type": "object",
+      "description": "LoRa standard channel (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "frequency": {
+          "type": "integer",
+          "description": "Frequency [Hz]"
+        },
+        "data-rate": {
+          "type": "integer",
+          "description": "Data rate index"
+        }
+      },
+      "required": ["frequency", "data-rate"]
+    },
+    "fsk-channel": {
+      "type": "object",
+      "description": "FSK channel (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "frequency": {
+          "type": "integer",
+          "description": "Frequency [Hz]"
+        },
+        "data-rate": {
+          "type": "integer",
+          "description": "Data rate index"
+        }
+      },
+      "required": ["frequency", "data-rate"]
+    },
+    "time-off-air": {
+      "type": "object",
+      "description": "Time-off-air (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "fraction": {
+          "type": "number",
+          "description": "Minimum fraction of the emission time (optional)"
+        },
+        "duration": {
+          "type": "string",
+          "description": "Minimum duration (optional)"
+        }
+      }
+    },
+    "dwell-time": {
+      "type": "object",
+      "description": "Dwell time (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "uplinks": {
+          "type": "boolean",
+          "description": "Enabled for uplink"
+        },
+        "downlinks": {
+          "type": "boolean",
+          "description": "Enabled for downlink"
+        },
+        "duration": {
+          "type": "string",
+          "description": "Duration"
+        }
+      },
+      "required": ["uplinks", "downlinks", "duration"]
+    },
+    "listen-before-talk": {
+      "type": "object",
+      "description": "Listen-before-talk (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "rssi-offset": {
+          "type": "integer",
+          "description": "RSSI offset [dbm]"
+        },
+        "rssi-target": {
+          "type": "integer",
+          "description": "RSSI target [dbm]"
+        },
+        "scan-time": {
+          "type": "integer",
+          "description": "Scan time [nanoseconds]"
+        }
+      },
+      "required": ["rssi-offset", "rssi-target", "scan-time"]
+    },
+    "ping-slot": {
+      "type": "object",
+      "description": "Class B ping slot settings (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "frequency": {
+          "type": "integer",
+          "description": "Frequency [Hz]"
+        },
+        "min-data-rate": {
+          "type": "integer",
+          "description": "Minimum data rate index"
+        },
+        "max-data-rate": {
+          "type": "integer",
+          "description": "Maximum data rate index"
+        }
+      },
+      "required": ["frequency", "min-data-rate", "max-data-rate"]
+    },
+    "ping-slot-default-data-rate": {
+      "type": "integer",
+      "description": "Default data rate index of class B ping slot (optional)"
+    },
+    "rx2-channel": {
+      "type": "object",
+      "description": "Rx2 channel (optional)",
+      "additionalProperties": false,
+      "properties": {
+        "frequency": {
+          "type": "integer",
+          "description": "Frequency [Hz]"
+        },
+        "min-data-rate": {
+          "type": "integer",
+          "description": "Minimum data rate index"
+        },
+        "max-data-rate": {
+          "type": "integer",
+          "description": "Maximum data rate index"
+        }
+      },
+      "required": ["frequency", "min-data-rate", "max-data-rate"]
+    },
+    "rx2-default-data-rate": {
+      "type": "integer",
+      "description": "Default data rate index of Rx2 (optional)"
+    },
+    "max-eirp": {
+      "type": "number",
+      "description": "Maximum EIRP (optional; used when sub-bands do not have max-eirp, takes precedence over band's default)"
+    }
+  }
+}
