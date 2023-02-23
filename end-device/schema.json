@@ -48,7 +48,7 @@
           },
           "downlink-frequency": {
             "type": "integer",
-            "description": "Downlink frequency [Hz] (optional)"
+            "description": "Downlink frequency [Hz]"
           },
           "min-data-rate": {
             "type": "integer",

@@ -62,19 +62,19 @@
         "file": {
           "type": "string",
           "description": "File of the frequency plan definition.",
-          "enum": ["EU_863_870.yml"]
+          "enum": ["AS_920_923.yml","EU_433.yml","EU_863_870.yml","EU_863_870_ROAMING_DRAFT.yml","US_902_928_FSB_1.yml"]
         },
         "base-id": {
           "type": "string",
           "description": "ID that this frequency plan extends (refers to id of another frequency plan).",
-          "enum" : ["EU_863_870","EU_863_870_TTN"]
+          "enum" : ["AS_920_923","AS_920_923_LBT","EU_433","EU_863_870","EU_863_870_ROAMING_DRAFT","EU_863_870_TTN","US_902_928_FSB_1"]
         },
         "modifiers": {
           "type": "array",
           "uniqueItems": true,
           "items": {
             "type": "string",
-            "enum":["rx2_default_data_rata_3.yml"],
+            "enum":["disable_dwell_time.yml","enable_dwell_time_400ms.yml","lbt_80_over_128.yml","rx2_default_data_rata_3.yml"],
             "description": "Modifier addressed by filename."
           },
           "description": "List of files containing the modifiers used to extend the `base-id` end-device."
@@ -90,6 +90,7 @@
           "items": {
             "type": "string",
             "enum": [
+              "worldwide",
               "af",
               "ax",
               "al",
@@ -389,19 +390,19 @@
         "file": {
           "type": "string",
           "description": "File of the frequency plan definition.",
-          "enum": ["EU_863_870.yml"]
+          "enum": ["AS_920_923.yml","EU_433.yml","EU_863_870.yml"]
         },
         "base-id": {
           "type": "string",
           "description": "ID that this frequency plan extends (refers to id of another frequency plan).",
-          "enum" : ["EU_863_870","EU_863_870_TTN"]
+          "enum" : ["AS_920_923","AS_920_923_LBT","EU_433","EU_863_870","EU_863_870_ROAMING_DRAFT","EU_863_870_TTN","US_902_928_FSB_1"]
         },
         "modifiers": {
           "type": "array",
           "uniqueItems": true,
           "items": {
             "type": "string",
-            "enum":[],
+            "enum":["disable_dwell_time.yml","enable_dwell_time_400ms.yml","lbt_80_over_128.yml"],
             "description": "Modifier addressed by filename."
           },
           "description": "List of files containing the modifiers used to extend the `base-id` end-device."
@@ -417,6 +418,7 @@
           "items": {
             "type": "string",
             "enum": [
+              "worldwide",
               "af",
               "ax",
               "al",

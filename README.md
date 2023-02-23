@@ -20,7 +20,7 @@ sub-bands:
   max-eirp: 16.15               # Maximum EIRP for this sub-band (optional; takes precedence over frequency plan's max-eirp)
 channels:                       # List of  channels (zero indexed)
 - uplink-frequency: 868100000   # Uplink frequency (Hz)
-  downlink-frequency: 868100000 # Downlink frequency (Hz) (optional)
+  downlink-frequency: 868100000 # Downlink frequency (Hz)
   min-data-rate: SF7BW125       # Minimum data rate
   max-data-rate: SF11BW125      # Maximum data rate
   radio: 0                      # Radio index (see below)
@@ -158,6 +158,8 @@ There are json schemas available for all configuration files. These define files
   }
 }
 ```
+
+Make sure to run `go run . -schema -docs` after changes or additions to the frequency plans. This ensures that the schemas and documentation stay up to date.
 
 ### Local Regulations
 

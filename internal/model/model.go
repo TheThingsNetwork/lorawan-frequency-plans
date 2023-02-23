@@ -140,7 +140,7 @@ func (d DwellTime) Validate() error {
 
 type ListenBeforeTalk struct {
 	RSSIOffset *int `yaml:"rssi-offset,omitempty"`
-	RSSITarget *int `yaml:"rssi-targer,omitempty"`
+	RSSITarget *int `yaml:"rssi-target,omitempty"`
 	ScanTime   *int `yaml:"scan-time,omitempty"`
 }
 
@@ -240,17 +240,9 @@ func validateFrequencyRange(frequency int, min, max int) error {
 	return nil
 }
 
-func set[T any](modifier *T, base T) {
-	if modifier != nil {
-		base = *modifier
+func set[T any](modifier *T, base *T) {
+	if modifier == nil {
+		return
 	}
-}
-
-func setPointer[T any](modifier *T, base *T) {
-	if modifier != nil {
-		if base == nil {
-			base = new(T)
-		}
-		*base = *modifier
-	}
+	*base = *modifier
 }

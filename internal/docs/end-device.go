@@ -41,6 +41,9 @@ func renderEndDevice(id string, plan model.FrequencyPlanEndDevice) error {
 			Label:  formatFrequency(freq),
 		})
 
+		if ch.DownlinkFrequency == nil {
+			continue
+		}
 		freq = float64(*ch.DownlinkFrequency)
 		start, end = freq-62500, freq+62500
 		frequencies[freq] = formatFrequency(freq)

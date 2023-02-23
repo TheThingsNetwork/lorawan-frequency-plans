@@ -70,15 +70,15 @@ func (f FrequencyPlanGateway) Validate() error {
 
 func (f FrequencyPlanGateway) Modify(modifier FrequencyPlanGatewayModifier) FrequencyPlanGateway {
 	modified := f
-	set(modifier.SubBands, modified.SubBands)
-	set(modifier.Channels, modified.Channels)
-	set(modifier.Radios, modified.Radios)
-	set(modifier.ClockSource, modified.ClockSource)
-	setPointer(modifier.LoRaStandardChannel, modified.LoRaStandardChannel)
-	setPointer(modifier.FSKChannel, modified.FSKChannel)
-	setPointer(modifier.TimeOffAir, modified.TimeOffAir)
-	setPointer(modifier.DwellTime, modified.DwellTime)
-	setPointer(modifier.MaxEIRP, modified.MaxEIRP)
+	set(modifier.SubBands, &modified.SubBands)
+	set(modifier.Channels, &modified.Channels)
+	set(modifier.Radios, &modified.Radios)
+	set(modifier.ClockSource, &modified.ClockSource)
+	set(modifier.LoRaStandardChannel, modified.LoRaStandardChannel)
+	set(modifier.FSKChannel, modified.FSKChannel)
+	set(modifier.TimeOffAir, modified.TimeOffAir)
+	set(modifier.DwellTime, modified.DwellTime)
+	set(modifier.MaxEIRP, modified.MaxEIRP)
 	return modified
 }
 

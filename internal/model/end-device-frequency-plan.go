@@ -93,18 +93,18 @@ func (f FrequencyPlanEndDevice) Validate() error {
 
 func (f FrequencyPlanEndDevice) Modify(modifier FrequencyPlanEndDeviceModifier) FrequencyPlanEndDevice {
 	modified := f
-	set(modifier.SubBands, modified.SubBands)
-	set(modifier.Channels, modified.Channels)
-	setPointer(modifier.LoRaStandardChannel, modified.LoRaStandardChannel)
-	setPointer(modifier.FSKChannel, modified.FSKChannel)
-	setPointer(modifier.TimeOffAir, modified.TimeOffAir)
-	setPointer(modifier.DwellTime, modified.DwellTime)
-	setPointer(modifier.ListenBeforeTalk, modified.ListenBeforeTalk)
-	setPointer(modifier.PingSlot, modified.PingSlot)
-	setPointer(modifier.PingSlotDefaultDataRate, modified.PingSlotDefaultDataRate)
-	setPointer(modifier.RX2Channel, modified.RX2Channel)
-	setPointer(modifier.RX2DefaultDataRate, modified.RX2DefaultDataRate)
-	setPointer(modifier.MaxEIRP, modified.MaxEIRP)
+	set(modifier.SubBands, &modified.SubBands)
+	set(modifier.Channels, &modified.Channels)
+	set(modifier.LoRaStandardChannel, modified.LoRaStandardChannel)
+	set(modifier.FSKChannel, modified.FSKChannel)
+	set(modifier.TimeOffAir, modified.TimeOffAir)
+	set(modifier.DwellTime, modified.DwellTime)
+	set(modifier.ListenBeforeTalk, modified.ListenBeforeTalk)
+	set(modifier.PingSlot, modified.PingSlot)
+	set(modifier.PingSlotDefaultDataRate, modified.PingSlotDefaultDataRate)
+	set(modifier.RX2Channel, modified.RX2Channel)
+	set(modifier.RX2DefaultDataRate, modified.RX2DefaultDataRate)
+	set(modifier.MaxEIRP, modified.MaxEIRP)
 	return modified
 }
 

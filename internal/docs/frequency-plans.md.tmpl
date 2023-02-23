@@ -4,8 +4,7 @@
 {{- range .EndDeviceDescriptions }}
 {{ if .BaseID }}
 ## `{{ .ID }}`: {{ .Name }}
-Based on [{{ .BaseID }}](##{{ .BaseID }}) and modified by {{ range .Modifiers }}[{{ . }}](../end-device/modifiers/{{ . }}){{ end }}
-{{ else }}
+Based on [{{ .BaseID }}](##{{ .BaseID }}) and modified by {{ range .Modifiers }}[{{ . }}](../end-device/modifiers/{{ . }}){{ end }}{{ else }}
 ## [`{{ .ID }}`](../end-device/{{ .File }}): {{ .Name }}{{ end }} 
 
 >> {{ .Description }}
@@ -14,7 +13,6 @@ Based on [{{ .BaseID }}](##{{ .BaseID }}) and modified by {{ range .Modifiers }}
 
 # Gateway frequency plans
 {{- range .GatewayDescriptions }}
-
 {{ if .BaseID }}
 ## `{{ .ID }}`: {{ .Name }}
 Based on {{ .BaseID }} and modified by {{ range .Modifiers }}[{{ . }}](../gateway/modifiers/{{ . }}){{ end }}

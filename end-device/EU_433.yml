@@ -1,0 +1,43 @@
+band-id: EU_433
+sub-bands:
+- min-frequency: 433050000
+  max-frequency: 434790000
+  duty-cycle: 0.1 # NOTE: ETSI EN300220 limit is 10%; LoRaWAN limit for end-devices is 1%
+  max-eirp: 12.15
+channels:
+- uplink-frequency: 433175000
+  downlink-frequency: 433175000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 433375000
+  downlink-frequency: 433375000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 433575000
+  downlink-frequency: 433575000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 433775000
+  downlink-frequency: 433775000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 433975000
+  downlink-frequency: 433975000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 434175000
+  downlink-frequency: 434175000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 434375000
+  downlink-frequency: 434375000
+  min-data-rate: 0
+  max-data-rate: 5
+- uplink-frequency: 434575000
+  downlink-frequency: 434575000
+  min-data-rate: 0
+  max-data-rate: 5
+lora-standard-channel:
+  frequency: 434075000
+  data-rate: 6
+

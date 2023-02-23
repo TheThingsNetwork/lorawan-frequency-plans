@@ -18,6 +18,52 @@ end-device-descriptions:
   modifiers: [rx2_default_data_rata_3.yml]
   endorsed: true
 
+- id: EU_863_870_ROAMING_DRAFT
+  band-id: EU_863_870
+  name: Europe 863-870 MHz, 6 channels for roaming (Draft)
+  description: European 6 channel plan used by major operators to support LoRaWAN Passive Roaming
+  base-frequency: 868
+  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  file: EU_863_870_ROAMING_DRAFT.yml
+  endorsed: false
+
+- id: EU_433
+  band-id: EU_433
+  name: Europe 433 MHz (ITU region 1)
+  description: Default frequency plan for worldwide 433MHz
+  base-frequency: 433
+  country-codes: [worldwide]
+  file: EU_433.yml
+  endorsed: true
+
+- id: US_902_928_FSB_1
+  band-id: US_902_928
+  name: United States 902-928 MHz, FSB 1
+  description: Default frequency plan for the United States and Canada, using sub-band 1
+  base-frequency: 915
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_902_928_FSB_1.yml
+  endorsed: true
+
+- id: AS_920_923
+  band-id: AS_923
+  name: Asia 920-923 MHz
+  description: TTN Community Network frequency plan for Asian countries, using frequencies ≤ 923 MHz
+  base-frequency: 915
+  country-codes: [my, sg]
+  file: AS_920_923.yml
+  endorsed: true
+
+- id: AS_920_923_LBT
+  band-id: AS_923
+  base-id: AS_920_923
+  name: Asia 920-923 MHz with LBT
+  description: TTN Community Network frequency plan for Asian countries, using frequencies ≤ 923 MHz with listen-before-talk
+  base-frequency: 915
+  country-codes: [jp, my, sg]
+  modifiers: [lbt_80_over_128.yml]
+  endorsed: false
+
 gateway-descriptions:
 - id: EU_863_870
   band-id: EU_863_870
@@ -26,4 +72,32 @@ gateway-descriptions:
   base-frequency: 868
   country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
   file: EU_863_870.yml
+  endorsed: false
+
+- id: EU_433
+  band-id: EU_433
+  name: Europe 433 MHz (ITU region 1)
+  description: Default frequency plan for worldwide 433MHz
+  base-frequency: 433
+  country-codes: [worldwide]
+  file: EU_433.yml
+  endorsed: true
+
+- id: AS_920_923
+  band-id: AS_923
+  name: Asia 920-923 MHz
+  description: TTN Community Network frequency plan for Asian countries, using frequencies ≤ 923 MHz
+  base-frequency: 915
+  country-codes: [my, sg]
+  file: AS_920_923.yml
+  endorsed: true
+
+- id: AS_920_923_LBT
+  band-id: AS_923
+  base-id: AS_920_923
+  name: Asia 920-923 MHz with LBT
+  description: TTN Community Network frequency plan for Asian countries, using frequencies ≤ 923 MHz with listen-before-talk
+  base-frequency: 915
+  country-codes: [jp, my, sg]
+  modifiers: [lbt_80_over_128.yml]
   endorsed: false
