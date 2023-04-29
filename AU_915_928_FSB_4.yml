@@ -34,7 +34,7 @@ uplink-channels:
   radio: 1
 lora-standard-channel:
   frequency: 920700000
-  data-rate: 12
+  data-rate: 6
   radio: 0
 dwell-time:
   downlinks: false
