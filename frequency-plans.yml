@@ -193,6 +193,7 @@
   file: lbt_80_over_128.yml
 
 - id: AS_920_923_TTN_JP_1
+  band-id: AS_920_923
   name: Japan 920-923 MHz with LBT (channels 31-38)
   description: Frequency plan for Japan, using continuous frequencies up to 923.4MHz with LBT.
   base-frequency: 915
@@ -200,6 +201,7 @@
   file: AS_920_923_TTN_JP_1.yml
 
 - id: AS_920_923_TTN_JP_1_LAND_MOBILE
+  band-id: AS_920_923
   name: Japan 920-923 MHz with LBT (channels 31-38), Max EIRP 27 dBm
   description: |
     Frequency plan for Japanese land mobile station, using continuous frequencies up to 923.4MHz with MAX EIRP 27 dBm and LBT.
@@ -210,6 +212,7 @@
   file: AS_920_923_TTN_JP_1_LAND_MOBILE.yml
 
 - id: AS_920_923_TTN_JP_2
+  band-id: AS_920_923
   name: Japan 920-923 MHz with LBT (channels 24-27 and 35-38)
   description: Frequency plan for Japan, using top and bottom frequencies ≤ 923.4 MHz with LBT.
   base-frequency: 915
@@ -217,6 +220,7 @@
   file: AS_920_923_TTN_JP_2.yml
 
 - id: AS_920_923_TTN_JP_3
+  band-id: AS_920_923
   name: Japan 920-923 MHz with LBT (channels 24-31)
   description: Frequency plan for Japan (16 channels), using continuous frequencies from 920.6 MHz, expected to be used with AS_920_923_TTN_JP_1.
   base-frequency: 915
@@ -224,6 +228,7 @@
   file: AS_920_923_TTN_JP_3.yml
 
 - id: AS_920_923_TTN_JP_3_LAND_MOBILE
+  band-id: AS_920_923
   name: Japan 920-923 MHz with LBT (channels 24-31), Max EIRP 27 dBm
   description: |
     Frequency plan for Japanese land mobile station (16 channels), using continuous frequencies from 920.6 MHz with MAX EIRP 27 dBm and LBT, expected to be used with AS_920_923_TTN_JP_1.
