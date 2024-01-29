@@ -843,3 +843,12 @@
   base-frequency: 915
   country-codes: [il]
   file: IL_917_920_TTN.yml
+
+- id: SG_920_923_TTN
+  band-id: AS_923
+  name: Singapore 920-923 MHz
+  description: TTN Community Network frequency plan for Singapore
+  base-frequency: 915
+  base-id: AS_920_923
+  country-codes: [sg]
+  file: SG_920_923_TTN.yml

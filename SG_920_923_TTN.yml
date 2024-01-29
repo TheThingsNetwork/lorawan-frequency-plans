@@ -1,0 +1,8 @@
+band-id: AS_923
+sub-bands:
+  - min-frequency: 922000000
+    max-frequency: 923400000
+    duty-cycle: 0.1
+dwell-time:
+  uplinks: false
+  downlinks: false
