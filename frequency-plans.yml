@@ -835,3 +835,11 @@
       zw,
     ]
   file: ISM_2400_3CH_DRAFT2.yml
+
+- id: IL_917_920_TTN
+  band-id: AS_923_4
+  name: Israel 917-920 MHz
+  description: TTN Community Network frequency plan for Israel
+  base-frequency: 915
+  country-codes: [il]
+  file: IL_917_920_TTN.yml

@@ -1,0 +1,79 @@
+band-id: AS_923_4
+sub-bands:
+  - min-frequency: 917300000
+    max-frequency: 919900000
+    duty-cycle: 0.01
+dwell-time:
+  uplinks: false
+  downlinks: false
+uplink-channels:
+  - frequency: 917300000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 0
+  - frequency: 917500000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 0
+  - frequency: 917700000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 0
+  - frequency: 917900000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 0
+  - frequency: 919300000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 1
+  - frequency: 919500000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 1
+  - frequency: 919700000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 1
+  - frequency: 919900000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 1
+downlink-channels:
+  - frequency: 917300000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 917500000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 917700000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 917900000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 919300000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 919500000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 919700000
+    min-data-rate: 0
+    max-data-rate: 5
+  - frequency: 919900000
+    min-data-rate: 0
+    max-data-rate: 5
+radios:
+  - enable: true
+    chip-type: SX1257
+    frequency: 917600000
+    rssi-offset: -166
+    tx:
+      min-frequency: 915000000
+      max-frequency: 928000000
+  - enable: true
+    chip-type: SX1257
+    frequency: 919600000
+    rssi-offset: -166
+clock-source: 1
