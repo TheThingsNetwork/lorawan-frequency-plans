@@ -3,7 +3,68 @@
   name: Europe 863-870 MHz (SF12 for RX2)
   description: Default frequency plan for Europe
   base-frequency: 868
-  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  country-codes:
+    [
+      al,
+      ad,
+      ao,
+      at,
+      bh,
+      be,
+      ba,
+      bw,
+      bg,
+      cg,
+      hr,
+      cy,
+      cz,
+      dk,
+      ee,
+      sz,
+      fi,
+      fr,
+      gr,
+      hu,
+      is,
+      ie,
+      it,
+      lv,
+      ls,
+      li,
+      lt,
+      lu,
+      mg,
+      mw,
+      mt,
+      mu,
+      md,
+      me,
+      mz,
+      na,
+      nl,
+      mk,
+      ph,
+      pl,
+      pt,
+      ro,
+      ru,
+      sa,
+      rs,
+      sc,
+      sk,
+      si,
+      za,
+      es,
+      se,
+      ch,
+      tz,
+      tr,
+      ae,
+      gb,
+      va,
+      zm,
+      zw,
+    ]
   file: EU_863_870.yml
 
 - id: EU_863_870_TTN
@@ -12,7 +73,68 @@
   description: TTN Community Network frequency plan for Europe, using SF9 for RX2
   base-frequency: 868
   base-id: EU_863_870
-  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  country-codes:
+    [
+      al,
+      ad,
+      ao,
+      at,
+      bh,
+      be,
+      ba,
+      bw,
+      bg,
+      cg,
+      hr,
+      cy,
+      cz,
+      dk,
+      ee,
+      sz,
+      fi,
+      fr,
+      gr,
+      hu,
+      is,
+      ie,
+      it,
+      lv,
+      ls,
+      li,
+      lt,
+      lu,
+      mg,
+      mw,
+      mt,
+      mu,
+      md,
+      me,
+      mz,
+      na,
+      nl,
+      mk,
+      ph,
+      pl,
+      pt,
+      ro,
+      ru,
+      sa,
+      rs,
+      sc,
+      sk,
+      si,
+      za,
+      es,
+      se,
+      ch,
+      tz,
+      tr,
+      ae,
+      gb,
+      va,
+      zm,
+      zw,
+    ]
   file: EU_863_870_TTN.yml
 
 - id: EU_863_870_ROAMING_DRAFT
@@ -21,7 +143,68 @@
   description: European 6 channel plan used by major operators to support LoRaWAN Passive Roaming
   base-frequency: 868
   base-id: EU_863_870
-  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  country-codes:
+    [
+      al,
+      ad,
+      ao,
+      at,
+      bh,
+      be,
+      ba,
+      bw,
+      bg,
+      cg,
+      hr,
+      cy,
+      cz,
+      dk,
+      ee,
+      sz,
+      fi,
+      fr,
+      gr,
+      hu,
+      is,
+      ie,
+      it,
+      lv,
+      ls,
+      li,
+      lt,
+      lu,
+      mg,
+      mw,
+      mt,
+      mu,
+      md,
+      me,
+      mz,
+      na,
+      nl,
+      mk,
+      ph,
+      pl,
+      pt,
+      ro,
+      ru,
+      sa,
+      rs,
+      sc,
+      sk,
+      si,
+      za,
+      es,
+      se,
+      ch,
+      tz,
+      tr,
+      ae,
+      gb,
+      va,
+      zm,
+      zw,
+    ]
   file: EU_863_870_ROAMING_DRAFT.yml
 
 - id: EU_433
@@ -176,7 +359,7 @@
   file: CN_470_510_FSB_11.yml
 
 - id: AS_920_923
-  band-id: AS_920_923
+  band-id: AS_923
   name: Asia 920-923 MHz
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≤ 923 MHz
   base-frequency: 915
@@ -184,7 +367,7 @@
   file: AS_920_923.yml
 
 - id: AS_920_923_LBT
-  band-id: AS_920_923
+  band-id: AS_923
   name: Asia 920-923 MHz with LBT
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≤ 923 MHz with listen-before-talk
   base-frequency: 915
@@ -193,7 +376,7 @@
   file: lbt_80_over_128.yml
 
 - id: AS_920_923_TTN_JP_1
-  band-id: AS_920_923
+  band-id: AS_923
   name: Japan 920-923 MHz with LBT (channels 31-38)
   description: Frequency plan for Japan, using continuous frequencies up to 923.4MHz with LBT.
   base-frequency: 915
@@ -201,7 +384,7 @@
   file: AS_920_923_TTN_JP_1.yml
 
 - id: AS_920_923_TTN_JP_1_LAND_MOBILE
-  band-id: AS_920_923
+  band-id: AS_923
   name: Japan 920-923 MHz with LBT (channels 31-38), Max EIRP 27 dBm
   description: |
     Frequency plan for Japanese land mobile station, using continuous frequencies up to 923.4MHz with MAX EIRP 27 dBm and LBT.
@@ -212,7 +395,7 @@
   file: AS_920_923_TTN_JP_1_LAND_MOBILE.yml
 
 - id: AS_920_923_TTN_JP_2
-  band-id: AS_920_923
+  band-id: AS_923
   name: Japan 920-923 MHz with LBT (channels 24-27 and 35-38)
   description: Frequency plan for Japan, using top and bottom frequencies ≤ 923.4 MHz with LBT.
   base-frequency: 915
@@ -220,7 +403,7 @@
   file: AS_920_923_TTN_JP_2.yml
 
 - id: AS_920_923_TTN_JP_3
-  band-id: AS_920_923
+  band-id: AS_923
   name: Japan 920-923 MHz with LBT (channels 24-31)
   description: Frequency plan for Japan (16 channels), using continuous frequencies from 920.6 MHz, expected to be used with AS_920_923_TTN_JP_1.
   base-frequency: 915
@@ -228,7 +411,7 @@
   file: AS_920_923_TTN_JP_3.yml
 
 - id: AS_920_923_TTN_JP_3_LAND_MOBILE
-  band-id: AS_920_923
+  band-id: AS_923
   name: Japan 920-923 MHz with LBT (channels 24-31), Max EIRP 27 dBm
   description: |
     Frequency plan for Japanese land mobile station (16 channels), using continuous frequencies from 920.6 MHz with MAX EIRP 27 dBm and LBT, expected to be used with AS_920_923_TTN_JP_1.
@@ -331,7 +514,7 @@
   file: enable_dwell_time_400ms.yml
 
 - id: AS_923_925
-  band-id: AS_923_925
+  band-id: AS_923
   name: Asia 923-925 MHz
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≥ 923 MHz
   base-frequency: 915
@@ -339,7 +522,7 @@
   file: AS_923_925.yml
 
 - id: AS_923_925_LBT
-  band-id: AS_923_925
+  band-id: AS_923
   name: Asia 923-925 MHz with LBT
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≥ 923 MHz with listen-before-talk
   base-frequency: 915
@@ -348,7 +531,7 @@
   file: lbt_80_over_128.yml
 
 - id: AS_920_923_TTN_AU
-  band-id: AS_923_925
+  band-id: AS_923
   name: Asia 920-923 MHz (used by TTN Australia)
   description: TTN Community Network frequency plan for Asia 920-923 MHz in Australia
   base-frequency: 915
@@ -357,7 +540,7 @@
   file: AS_920_923_TTN_AU.yml
 
 - id: AS_923_925_TTN_AU
-  band-id: AS_923_925
+  band-id: AS_923
   name: Asia 923-925 MHz (used by TTN Australia - secondary channels)
   description: TTN Community Network frequency plan for Asia 923-925 MHz in Australia. Secondary channels for 16 channel gateways.
   base-frequency: 915
@@ -652,3 +835,20 @@
       zw,
     ]
   file: ISM_2400_3CH_DRAFT2.yml
+
+- id: IL_917_920_TTN
+  band-id: AS_923_4
+  name: Israel 917-920 MHz
+  description: TTN Community Network frequency plan for Israel
+  base-frequency: 915
+  country-codes: [il]
+  file: IL_917_920_TTN.yml
+
+- id: SG_920_923_TTN
+  band-id: AS_923
+  name: Singapore 920-923 MHz
+  description: TTN Community Network frequency plan for Singapore
+  base-frequency: 915
+  base-id: AS_920_923
+  country-codes: [sg]
+  file: SG_920_923_TTN.yml
