@@ -838,11 +838,19 @@
 
 - id: IL_917_920_TTN
   band-id: AS_923_4
-  name: Israel 917-920 MHz
-  description: TTN Community Network frequency plan for Israel
+  name: Israel 917-920 MHz (channels 1-4 and 11-14)
+  description: TTN Community Network frequency plan for Israel using channels 1 to 4 and 11 to 14.
   base-frequency: 915
   country-codes: [il]
   file: IL_917_920_TTN.yml
+
+- id: IL_917_920_TTN_2
+  band-id: AS_923_4
+  name: Israel 917-920 MHz (channels 1-7 and 9)
+  description: TTN Community Network frequency plan for Israel using channels 1 to 7 and channel 9.
+  base-frequency: 915
+  country-codes: [il]
+  file: IL_917_920_TTN_2.yml
 
 - id: SG_920_923_TTN
   band-id: AS_923
