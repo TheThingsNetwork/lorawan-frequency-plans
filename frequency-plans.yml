@@ -866,4 +866,5 @@
   name: Uzbekistan 915-928 MHz with only default channels
   description: Compatibility frequency plan for Uzbekistan with common channels in the 926.2-926.8 MHz sub-band
   base-frequency: 915
+  country-codes: [uz]
   file: UZ_923_1.yml
