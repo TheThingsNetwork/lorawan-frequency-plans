@@ -1,0 +1,36 @@
+band-id: AS_923
+sub-bands:
+- min-frequency: 926200000
+  max-frequency: 926800000
+  max-eirp: 16
+uplink-channels:
+- frequency: 926400000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 926600000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 926800000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+
+downlink-channels:
+- frequency: 926400000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 926600000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 926800000
+  min-data-rate: 0
+  max-data-rate: 5
+
+rx2-channel:                   # Rx2 channel (optional)
+  frequency: 926200000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+rx2-default-data-rate: 2    # Rx2 default data rate (optional)
