@@ -210,7 +210,7 @@
 - id: EU_868_1
   band-id: EU_863_870
   name: Europe 868.1 MHz
-  description: Single channel frequency plan for Europe
+  description: Single channel frequency plan for Europe (experimental)
   base-frequency: 868
   base-id: EU_863_870
   country-codes:
