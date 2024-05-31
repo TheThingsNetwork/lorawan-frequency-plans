@@ -1,0 +1,9 @@
+uplink-channels:
+- frequency: 868100000
+  min-data-rate: 0 
+  max-data-rate: 5
+  radio: 1
+downlink-channels:
+- frequency: 868100000
+  min-data-rate: 0
+  max-data-rate: 5
