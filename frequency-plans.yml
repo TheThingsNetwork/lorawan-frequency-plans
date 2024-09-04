@@ -3,6 +3,7 @@
   name: Europe 863-870 MHz (SF12 for RX2)
   description: Default frequency plan for Europe
   base-frequency: 868
+  gateways: true
   country-codes:
     [
       al,
@@ -73,6 +74,7 @@
   description: TTN Community Network frequency plan for Europe, using SF9 for RX2
   base-frequency: 868
   base-id: EU_863_870
+  gateways: false
   country-codes:
     [
       al,
@@ -143,6 +145,7 @@
   description: European 6 channel plan used by major operators to support LoRaWAN Passive Roaming
   base-frequency: 868
   base-id: EU_863_870
+  gateways: false
   country-codes:
     [
       al,
@@ -213,6 +216,7 @@
   description: Single channel frequency plan for Europe (experimental)
   base-frequency: 868
   base-id: EU_863_870
+  gateways: true
   country-codes:
     [
       al,
@@ -282,6 +286,7 @@
   name: Europe 433 MHz (ITU region 1)
   description: Default frequency plan for worldwide 433MHz
   base-frequency: 433
+  gateways: true
   file: EU_433.yml
 
 - id: US_902_928_FSB_1
@@ -289,6 +294,7 @@
   name: United States 902-928 MHz, FSB 1
   description: Default frequency plan for the United States and Canada, using sub-band 1
   base-frequency: 915
+  gateways: true
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_1.yml
 
@@ -297,6 +303,7 @@
   name: United States 902-928 MHz, FSB 2 (used by TTN)
   description: TTN Community Network frequency plan for the United States and Canada, using sub-band 2
   base-frequency: 915
+  gateways: true
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_2.yml
 
@@ -305,6 +312,7 @@
   name: United States 902-928 MHz, FSB 3
   description: Default frequency plan for the United States and Canada, using sub-band 3
   base-frequency: 915
+  gateways: true
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_3.yml
 
@@ -313,6 +321,7 @@
   name: United States 902-928 MHz, FSB 4
   description: Default frequency plan for the United States and Canada, using sub-band 4
   base-frequency: 915
+  gateways: true
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_4.yml
 
@@ -321,6 +330,7 @@
   name: United States 902-928 MHz, FSB 5
   description: Default frequency plan for the United States and Canada, using sub-band 5
   base-frequency: 915
+  gateways: true
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_5.yml
 
@@ -329,6 +339,7 @@
   name: United States 902-928 MHz, FSB 6
   description: Default frequency plan for the United States and Canada, using sub-band 6
   base-frequency: 915
+  gateways: true
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_6.yml
 
@@ -337,6 +348,7 @@
   name: United States 902-928 MHz, FSB 7
   description: Default frequency plan for the United States and Canada, using sub-band 7
   base-frequency: 915
+  gateways: true
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_7.yml
 
@@ -345,6 +357,7 @@
   name: United States 902-928 MHz, FSB 8
   description: Default frequency plan for the United States and Canada, using sub-band 8
   base-frequency: 915
+  gateways: true
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_8.yml
 
@@ -353,6 +366,7 @@
   name: Australia 915-928 MHz, FSB 1
   description: Default frequency plan for Australia, using sub-band 1
   base-frequency: 915
+  gateways: true
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_1.yml
 
@@ -361,6 +375,7 @@
   name: Australia 915-928 MHz, FSB 2 (used by TTN)
   description: TTN Community Network frequency plan for Australia, using sub-band 2
   base-frequency: 915
+  gateways: true
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_2.yml
 
@@ -369,6 +384,7 @@
   name: Australia 915-928 MHz, FSB 3
   description: Default frequency plan for Australia, using sub-band 3
   base-frequency: 915
+  gateways: true
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_3.yml
 
@@ -377,6 +393,7 @@
   name: Australia 915-928 MHz, FSB 4
   description: Default frequency plan for Australia, using sub-band 4
   base-frequency: 915
+  gateways: true
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_4.yml
 
@@ -385,6 +402,7 @@
   name: Australia 915-928 MHz, FSB 5
   description: Default frequency plan for Australia, using sub-band 5
   base-frequency: 915
+  gateways: true
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_5.yml
 
@@ -393,6 +411,7 @@
   name: Australia 915-928 MHz, FSB 6
   description: Frequency plan for Australia, using sub-band 6, which overlaps with Asia 923-925 MHz
   base-frequency: 915
+  gateways: true
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_6.yml
 
@@ -401,6 +420,7 @@
   name: Australia 915-928 MHz, FSB 7
   description: Default frequency plan for Australia, using sub-band 7
   base-frequency: 915
+  gateways: true
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_7.yml
 
@@ -409,6 +429,7 @@
   name: Australia 915-928 MHz, FSB 8
   description: Default frequency plan for Australia, using sub-band 8
   base-frequency: 915
+  gateways: true
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_8.yml
 
@@ -417,6 +438,7 @@
   name: China 470-510 MHz, FSB 1
   description: Default frequency plan for China, using sub-band 1
   base-frequency: 470
+  gateways: true
   country-codes: [cn]
   file: CN_470_510_FSB_1.yml
 
@@ -425,6 +447,7 @@
   name: China 470-510 MHz, FSB 11 (used by TTN)
   description: TTN Community Network frequency plan for China, using sub-band 11
   base-frequency: 470
+  gateways: true
   country-codes: [cn]
   file: CN_470_510_FSB_11.yml
 
@@ -433,6 +456,7 @@
   name: Asia 920-923 MHz
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≤ 923 MHz
   base-frequency: 915
+  gateways: true
   country-codes: [my, sg]
   file: AS_920_923.yml
 
@@ -442,6 +466,7 @@
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≤ 923 MHz with listen-before-talk
   base-frequency: 915
   base-id: AS_920_923
+  gateways: true
   country-codes: [jp, my, sg]
   file: lbt_80_over_128.yml
 
@@ -450,6 +475,7 @@
   name: Japan 920-923 MHz with LBT (channels 31-38)
   description: Frequency plan for Japan, using continuous frequencies up to 923.4MHz with LBT.
   base-frequency: 915
+  gateways: true
   country-codes: [jp]
   file: AS_920_923_TTN_JP_1.yml
 
@@ -461,6 +487,7 @@
     (note) A user who installs land mobile station in Japan must apply to Japanese Ministry of Internal Affairs and Communications.
   base-frequency: 915
   base-id: AS_920_923_TTN_JP_1
+  gateways: true
   country-codes: [jp]
   file: AS_920_923_TTN_JP_1_LAND_MOBILE.yml
 
@@ -469,6 +496,7 @@
   name: Japan 920-923 MHz with LBT (channels 24-27 and 35-38)
   description: Frequency plan for Japan, using top and bottom frequencies ≤ 923.4 MHz with LBT.
   base-frequency: 915
+  gateways: true
   country-codes: [jp]
   file: AS_920_923_TTN_JP_2.yml
 
@@ -477,6 +505,7 @@
   name: Japan 920-923 MHz with LBT (channels 24-31)
   description: Frequency plan for Japan (16 channels), using continuous frequencies from 920.6 MHz, expected to be used with AS_920_923_TTN_JP_1.
   base-frequency: 915
+  gateways: true
   country-codes: [jp]
   file: AS_920_923_TTN_JP_3.yml
 
@@ -488,6 +517,7 @@
     (note) A user who installs land mobile station in Japan must apply to Japanese Ministry of Internal Affairs and Communications.
   base-frequency: 915
   base-id: AS_920_923_TTN_JP_3
+  gateways: true
   country-codes: [jp]
   file: AS_920_923_TTN_JP_3_LAND_MOBILE.yml
 
@@ -496,6 +526,7 @@
   name: Asia 915-928 MHz (AS923 Group 1) with only default channels
   description: Compatibility frequency plan for Asian countries with common channels in the 923.0-923.5 MHz sub-band
   base-frequency: 915
+  gateways: true
   file: AS_923.yml
 
 - id: AS_923_2
@@ -503,6 +534,7 @@
   name: Asia 920-923 MHz (AS923 Group 2) with only default channels
   description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band
   base-frequency: 915
+  gateways: true
   file: AS_923_2.yml
 
 - id: AS_923_3
@@ -510,6 +542,7 @@
   name: Asia 915-921 MHz (AS923 Group 3) with only default channels
   description: Compatibility frequency plan for Asian countries with common channels in the 916.5-917.0 MHz sub-band
   base-frequency: 915
+  gateways: true
   file: AS_923_3.yml
 
 - id: AS_923_4
@@ -517,6 +550,7 @@
   name: Asia 917-920 MHz (AS923 Group 4) with only default channels
   description: Compatibility frequency plan for Asian countries with common channels in the 917.3-917.5 MHz sub-band
   base-frequency: 915
+  gateways: true
   file: AS_923_4.yml
 
 - id: AS_923_NDT
@@ -525,6 +559,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 923.0-923.5 MHz sub-band and dwell time disabled
   base-frequency: 915
   base-id: AS_923
+  gateways: true
   file: disable_dwell_time.yml
 
 - id: AS_923_DT
@@ -533,6 +568,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 923.0-923.5 MHz sub-band and dwell time enabled
   base-frequency: 915
   base-id: AS_923
+  gateways: true
   file: enable_dwell_time_400ms.yml
 
 - id: AS_923_2_NDT
@@ -541,6 +577,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time disabled
   base-frequency: 915
   base-id: AS_923_2
+  gateways: true
   file: disable_dwell_time.yml
 
 - id: AS_923_2_DT
@@ -549,6 +586,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time enabled
   base-frequency: 915
   base-id: AS_923_2
+  gateways: true
   file: enable_dwell_time_400ms.yml
 
 - id: AS_923_3_NDT
@@ -557,6 +595,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time disabled
   base-frequency: 915
   base-id: AS_923_3
+  gateways: true
   file: disable_dwell_time.yml
 
 - id: AS_923_3_DT
@@ -565,6 +604,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time enabled
   base-frequency: 915
   base-id: AS_923_3
+  gateways: true
   file: enable_dwell_time_400ms.yml
 
 - id: AS_923_4_NDT
@@ -573,6 +613,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time disabled
   base-frequency: 915
   base-id: AS_923_4
+  gateways: true
   file: disable_dwell_time.yml
 
 - id: AS_923_4_DT
@@ -581,6 +622,7 @@
   description: Compatibility frequency plan for Asian countries with common channels in the 921.4-922.0 MHz sub-band and dwell time enabled
   base-frequency: 915
   base-id: AS_923_4
+  gateways: true
   file: enable_dwell_time_400ms.yml
 
 - id: AS_923_925
@@ -588,6 +630,7 @@
   name: Asia 923-925 MHz
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≥ 923 MHz
   base-frequency: 915
+  gateways: true
   country-codes: [bn, kh, hk, id, la, tw, th, vn]
   file: AS_923_925.yml
 
@@ -597,6 +640,7 @@
   description: TTN Community Network frequency plan for Asian countries, using frequencies ≥ 923 MHz with listen-before-talk
   base-frequency: 915
   base-id: AS_923_925
+  gateways: true
   country-codes: [bn, kh, hk, id, la, tw, th, vn]
   file: lbt_80_over_128.yml
 
@@ -606,6 +650,7 @@
   description: TTN Community Network frequency plan for Asia 920-923 MHz in Australia
   base-frequency: 915
   base-id: AS_920_923
+  gateways: true
   country-codes: [au]
   file: AS_920_923_TTN_AU.yml
 
@@ -615,6 +660,7 @@
   description: TTN Community Network frequency plan for Asia 923-925 MHz in Australia. Secondary channels for 16 channel gateways.
   base-frequency: 915
   base-id: AS_923_925
+  gateways: false
   country-codes: [au]
   file: AS_923_925_TTN_AU.yml
 
@@ -623,6 +669,7 @@
   name: South Korea 920-923 MHz
   description: TTN Community Network frequency plan for South Korea
   base-frequency: 915
+  gateways: true
   country-codes: [kr]
   file: KR_920_923_TTN.yml
 
@@ -631,6 +678,7 @@
   name: Morocco 869-870 MHz
   description: Draft frequency plan for Morocco, with 4 channels
   base-frequency: 868
+  gateways: true
   country-codes: [ma]
   file: MA_869_870_DRAFT.yml
 
@@ -639,6 +687,7 @@
   name: India 865-867 MHz
   description: Default frequency plan for India
   base-frequency: 868
+  gateways: true
   country-codes: [in]
   file: IN_865_867.yml
 
@@ -647,6 +696,7 @@
   name: Russia 864-870 MHz
   description: TTN Community Network frequency plan for Russia
   base-frequency: 868
+  gateways: true
   country-codes: [ru]
   file: RU_864_870_TTN.yml
 
@@ -655,6 +705,7 @@
   name: LoRa 2.4 GHz with 3 channels (Draft 2)
   description: Global 3 channel plan for LoRa 2.4 GHz (Draft 2)
   base-frequency: 2450
+  gateways: true
   country-codes:
     [
       af,
@@ -911,6 +962,7 @@
   name: Israel 917-920 MHz (channels 1-4 and 11-14)
   description: TTN Community Network frequency plan for Israel using channels 1 to 4 and 11 to 14.
   base-frequency: 915
+  gateways: true
   country-codes: [il]
   file: IL_917_920_TTN.yml
 
@@ -919,6 +971,7 @@
   name: Israel 917-920 MHz (channels 1-7 and 9)
   description: TTN Community Network frequency plan for Israel using channels 1 to 7 and channel 9.
   base-frequency: 915
+  gateways: true
   country-codes: [il]
   file: IL_917_920_TTN_2.yml
 
@@ -928,6 +981,7 @@
   description: TTN Community Network frequency plan for Singapore
   base-frequency: 915
   base-id: AS_920_923
+  gateways: true
   country-codes: [sg]
   file: SG_920_923_TTN.yml
 
@@ -936,5 +990,6 @@
   name: Uzbekistan 915-928 MHz with only default channels
   description: Compatibility frequency plan for Uzbekistan with common channels in the 926.2-926.8 MHz sub-band
   base-frequency: 915
+  gateways: true
   country-codes: [uz]
   file: UZ_923_1.yml
