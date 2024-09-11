@@ -993,3 +993,18 @@
   gateways: true
   country-codes: [uz]
   file: UZ_923_1.yml
+
+- id: EU_868_2400_COMBINED
+  band-id: EU_868_2400
+  name: Combined Europe 868 MHz and Global 2.4 GHz
+  description: Frequency plan combining Europe 868 MHz and global ISM 2.4 GHz bands
+  base-frequency: 868
+  gateways: true
+  country-codes: 
+    [
+      al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, 
+      hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, 
+      mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw
+    ]
+  file: EU_868_2400_COMBINED.yml
+
