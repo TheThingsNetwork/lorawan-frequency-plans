@@ -361,6 +361,15 @@
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_FSB_8.yml
 
+- id: US_903_0
+  band-id: US_902_928
+  name: United States 903.0 MHz
+  description: Single channel frequency plan for United States (experimental)
+  base-frequency: 915
+  base-id: US_902_928_FSB_1
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_903_0.yml
+
 - id: AU_915_928_FSB_1
   band-id: AU_915_928
   name: Australia 915-928 MHz, FSB 1
