@@ -370,6 +370,69 @@
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_903_0.yml
 
+- id: US_904_6
+  band-id: US_902_928
+  name: United States 904.6 MHz
+  description: Single channel frequency plan for United States (experimental)
+  base-frequency: 915
+  base-id: US_902_928_FSB_2
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_904_6.yml
+
+- id: US_906_2
+  band-id: US_902_928
+  name: United States 906.2 MHz
+  description: Single channel frequency plan for United States (experimental)
+  base-frequency: 915
+  base-id: US_902_928_FSB_3
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_906_2.yml
+
+- id: US_907_8
+  band-id: US_902_928
+  name: United States 907.8 MHz
+  description: Single channel frequency plan for United States (experimental)
+  base-frequency: 915
+  base-id: US_902_928_FSB_4
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_907_8.yml
+
+- id: US_909_4
+  band-id: US_902_928
+  name: United States 909.4 MHz
+  description: Single channel frequency plan for United States (experimental)
+  base-frequency: 915
+  base-id: US_902_928_FSB_5
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_909_4.yml
+
+- id: US_911_0
+  band-id: US_902_928
+  name: United States 911.0 MHz
+  description: Single channel frequency plan for United States (experimental)
+  base-frequency: 915
+  base-id: US_902_928_FSB_6
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_911_0.yml
+
+- id: US_912_6
+  band-id: US_902_928
+  name: United States 912.6 MHz
+  description: Single channel frequency plan for United States (experimental)
+  base-frequency: 915
+  base-id: US_902_928_FSB_7
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_912_6.yml
+
+- id: US_914_2
+  band-id: US_902_928
+  name: United States 914.2 MHz
+  description: Single channel frequency plan for United States (experimental)
+  base-frequency: 915
+  base-id: US_902_928_FSB_8
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_914_2.yml
+
 - id: AU_915_928_FSB_1
   band-id: AU_915_928
   name: Australia 915-928 MHz, FSB 1
