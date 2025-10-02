@@ -34,3 +34,18 @@ rx2-channel:                   # Rx2 channel (optional)
   max-data-rate: 5
   radio: 0
 rx2-default-data-rate: 2    # Rx2 default data rate (optional)
+
+# LBS/pfconfig configuration:
+radios:
+  - enable: true
+    chip-type: SX1257
+    frequency: 926600000       # center between 926.4/926.6/926.8
+    rssi-offset: -166
+    tx:
+      min-frequency: 926200000
+      max-frequency: 927800000
+  - enable: true
+    chip-type: SX1257
+    frequency: 926600000       # same frequency for single band
+    rssi-offset: -166
+clock-source: 1                # Required for LBS/pfconfig
