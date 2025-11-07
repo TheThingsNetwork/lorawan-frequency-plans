@@ -507,7 +507,7 @@
 
 - id: AU_915_928_FSB_1_BR
   band-id: AU_915_928
-  name: Brazil 915-928 MHz, FSB 1 (dwell disabled)
+  name: Brazil 915-928 MHz, FSB 1 (dwell time disabled)
   description: Default frequency plan for Australia, using sub-band 1 (Brazil)
   base-frequency: 915
   gateways: true
@@ -516,7 +516,7 @@
 
 - id: AU_915_928_FSB_2_BR
   band-id: AU_915_928
-  name: Brazil 915-928 MHz, FSB 2 (dwell disabled)
+  name: Brazil 915-928 MHz, FSB 2 (dwell time disabled)
   description: TTN Community Network frequency plan for Australia, using sub-band 2 (Brazil)
   base-frequency: 915
   gateways: true
@@ -525,7 +525,7 @@
 
 - id: AU_915_928_FSB_3_BR
   band-id: AU_915_928
-  name: Brazil 915-928 MHz, FSB 3 (dwell disabled)
+  name: Brazil 915-928 MHz, FSB 3 (dwell time disabled)
   description: Default frequency plan for Australia, using sub-band 3 (Brazil)
   base-frequency: 915
   gateways: true
@@ -534,7 +534,7 @@
 
 - id: AU_915_928_FSB_4_BR
   band-id: AU_915_928
-  name: Brazil 915-928 MHz, FSB 4 (dwell disabled)
+  name: Brazil 915-928 MHz, FSB 4 (dwell time disabled)
   description: Default frequency plan for Australia, using sub-band 4 (Brazil)
   base-frequency: 915
   gateways: true
@@ -543,7 +543,7 @@
 
 - id: AU_915_928_FSB_5_BR
   band-id: AU_915_928
-  name: Brazil 915-928 MHz, FSB 5 (dwell disabled)
+  name: Brazil 915-928 MHz, FSB 5 (dwell time disabled)
   description: Default frequency plan for Australia, using sub-band 5 (Brazil)
   base-frequency: 915
   gateways: true
@@ -552,7 +552,7 @@
 
 - id: AU_915_928_FSB_6_BR
   band-id: AU_915_928
-  name: Brazil 915-928 MHz, FSB 6 (dwell disabled)
+  name: Brazil 915-928 MHz, FSB 6 (dwell time disabled)
   description: Frequency plan for Australia, using sub-band 6, which overlaps with Asia 923-925 MHz (Brazil)
   base-frequency: 915
   gateways: true
@@ -561,7 +561,7 @@
 
 - id: AU_915_928_FSB_7_BR
   band-id: AU_915_928
-  name: Brazil 915-928 MHz, FSB 7 (dwell disabled)
+  name: Brazil 915-928 MHz, FSB 7 (dwell time disabled)
   description: Default frequency plan for Australia, using sub-band 7 (Brazil)
   base-frequency: 915
   gateways: true
@@ -570,7 +570,7 @@
 
 - id: AU_915_928_FSB_8_BR
   band-id: AU_915_928
-  name: Brazil 915-928 MHz, FSB 8 (dwell disabled)
+  name: Brazil 915-928 MHz, FSB 8 (dwell time disabled)
   description: Default frequency plan for Australia, using sub-band 8 (Brazil)
   base-frequency: 915
   gateways: true
