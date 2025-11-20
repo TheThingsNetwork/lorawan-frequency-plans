@@ -505,6 +505,78 @@
   country-codes: [ar, au, bo, br, ca, cl, co, do, nz, py, pe, sr, uy]
   file: AU_915_928_FSB_8.yml
 
+- id: AU_915_928_FSB_1_BR
+  band-id: AU_915_928
+  name: Brazil 915-928 MHz, FSB 1 (dwell time disabled)
+  description: Default frequency plan for Australia, using sub-band 1 (Brazil)
+  base-frequency: 915
+  gateways: true
+  country-codes: [br]
+  file: AU_915_928_FSB_1_BR.yml
+
+- id: AU_915_928_FSB_2_BR
+  band-id: AU_915_928
+  name: Brazil 915-928 MHz, FSB 2 (dwell time disabled)
+  description: TTN Community Network frequency plan for Australia, using sub-band 2 (Brazil)
+  base-frequency: 915
+  gateways: true
+  country-codes: [br]
+  file: AU_915_928_FSB_2_BR.yml
+
+- id: AU_915_928_FSB_3_BR
+  band-id: AU_915_928
+  name: Brazil 915-928 MHz, FSB 3 (dwell time disabled)
+  description: Default frequency plan for Australia, using sub-band 3 (Brazil)
+  base-frequency: 915
+  gateways: true
+  country-codes: [br]
+  file: AU_915_928_FSB_3_BR.yml
+
+- id: AU_915_928_FSB_4_BR
+  band-id: AU_915_928
+  name: Brazil 915-928 MHz, FSB 4 (dwell time disabled)
+  description: Default frequency plan for Australia, using sub-band 4 (Brazil)
+  base-frequency: 915
+  gateways: true
+  country-codes: [br]
+  file: AU_915_928_FSB_4_BR.yml
+
+- id: AU_915_928_FSB_5_BR
+  band-id: AU_915_928
+  name: Brazil 915-928 MHz, FSB 5 (dwell time disabled)
+  description: Default frequency plan for Australia, using sub-band 5 (Brazil)
+  base-frequency: 915
+  gateways: true
+  country-codes: [br]
+  file: AU_915_928_FSB_5_BR.yml
+
+- id: AU_915_928_FSB_6_BR
+  band-id: AU_915_928
+  name: Brazil 915-928 MHz, FSB 6 (dwell time disabled)
+  description: Frequency plan for Australia, using sub-band 6, which overlaps with Asia 923-925 MHz (Brazil)
+  base-frequency: 915
+  gateways: true
+  country-codes: [br]
+  file: AU_915_928_FSB_6_BR.yml
+
+- id: AU_915_928_FSB_7_BR
+  band-id: AU_915_928
+  name: Brazil 915-928 MHz, FSB 7 (dwell time disabled)
+  description: Default frequency plan for Australia, using sub-band 7 (Brazil)
+  base-frequency: 915
+  gateways: true
+  country-codes: [br]
+  file: AU_915_928_FSB_7_BR.yml
+
+- id: AU_915_928_FSB_8_BR
+  band-id: AU_915_928
+  name: Brazil 915-928 MHz, FSB 8 (dwell time disabled)
+  description: Default frequency plan for Australia, using sub-band 8 (Brazil)
+  base-frequency: 915
+  gateways: true
+  country-codes: [br]
+  file: AU_915_928_FSB_8_BR.yml
+
 - id: CN_470_510_FSB_1
   band-id: CN_470_510
   name: China 470-510 MHz, FSB 1
