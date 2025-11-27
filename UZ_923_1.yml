@@ -1,4 +1,4 @@
-band-id: AS_923
+band-id: UZ_923_DRAFT
 sub-bands:
 - min-frequency: 926200000
   max-frequency: 926800000
