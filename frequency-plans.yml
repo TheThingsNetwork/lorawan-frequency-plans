@@ -1130,7 +1130,7 @@
   file: SG_920_923_TTN.yml
 
 - id: UZ_923_1
-  band-id: AS_923
+  band-id: UZ_923_DRAFT
   name: Uzbekistan 915-928 MHz with only default channels
   description: Compatibility frequency plan for Uzbekistan with common channels in the 926.2-926.8 MHz sub-band
   base-frequency: 915
