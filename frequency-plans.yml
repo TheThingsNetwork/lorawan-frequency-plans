@@ -1137,3 +1137,12 @@
   gateways: true
   country-codes: [uz]
   file: UZ_923_1.yml
+
+- id: US_902_928_CUSTOM_ADC_500KHZ
+  band-id: US_902_928_CUSTOM_ADC_500KHZ
+  name: United States 902-928 MHz, Custom ADC 500kHz
+  description: Custom frequency plan for ADC with 500kHz channels
+  base-frequency: 915
+  gateways: true
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_902_928_CUSTOM_ADC_500KHZ.yml

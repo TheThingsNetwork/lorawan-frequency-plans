@@ -1,0 +1,76 @@
+band-id: US_902_928_CUSTOM_ADC_500KHZ
+uplink-channels:
+- frequency: 903000000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 904600000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 906200000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 907800000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 909400000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 911000000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 912600000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+- frequency: 914200000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 1
+downlink-channels:
+- frequency: 923300000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 923900000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 924500000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 925100000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 925700000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 926300000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 926900000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 927500000
+  min-data-rate: 0
+  max-data-rate: 5
+dwell-time:
+  uplinks: true
+  downlinks: false
+  duration: 400ms
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 906200000
+  rssi-offset: -166
+  tx:
+    min-frequency: 923000000
+    max-frequency: 928000000
+- enable: true
+  chip-type: SX1257
+  frequency: 912600000
+  rssi-offset: -166
+clock-source: 1
