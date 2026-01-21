@@ -1,4 +1,4 @@
-band-id: US_902_928_CUSTOM_ADC_500KHZ
+band-id: US_902_928_CUSTOM_ADC
 uplink-channels:
 - frequency: 903000000
   min-data-rate: 0
