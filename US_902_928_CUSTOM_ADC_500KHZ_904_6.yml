@@ -1,0 +1,27 @@
+band-id: US_902_928_CUSTOM_ADC
+uplink-channels:
+  - frequency: 904600000
+    min-data-rate: 0
+    max-data-rate: 5
+    radio: 0
+downlink-channels:
+  - frequency: 923900000
+    min-data-rate: 0
+    max-data-rate: 5
+dwell-time:
+  uplinks: true
+  downlinks: false
+  duration: 400ms
+radios:
+  - enable: true
+    chip-type: SX1257
+    frequency: 906200000
+    rssi-offset: -166
+    tx:
+      min-frequency: 923000000
+      max-frequency: 928000000
+  - enable: true
+    chip-type: SX1257
+    frequency: 912600000
+    rssi-offset: -166
+clock-source: 1
