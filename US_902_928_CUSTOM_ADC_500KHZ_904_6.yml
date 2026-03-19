@@ -24,4 +24,5 @@ radios:
     chip-type: SX1257
     frequency: 912600000
     rssi-offset: -166
+max-eirp: 24.15
 clock-source: 1
