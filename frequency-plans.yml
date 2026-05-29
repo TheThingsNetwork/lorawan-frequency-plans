@@ -911,3 +911,21 @@
   gateways: true
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_CUSTOM_ADC_500KHZ_904_6.yml
+
+- id: US_902_928_CUSTOM_VIASAT_FSB_1
+  band-id: US_902_928_CUSTOM_VIASAT
+  name: United States 902-928 MHz, Custom Viasat FSB 1
+  description: Custom frequency plan for the United States and Canada, using sub-band 1
+  base-frequency: 915
+  gateways: true
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_902_928_CUSTOM_VIASAT_FSB_1.yml
+
+- id: US_902_928_CUSTOM_VIASAT_FSB_2
+  band-id: US_902_928_CUSTOM_VIASAT
+  name: United States 902-928 MHz, Custom Viasat FSB 2
+  description: Custom frequency plan for the United States and Canada, using sub-band 2
+  base-frequency: 915
+  gateways: true
+  country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
+  file: US_902_928_CUSTOM_VIASAT_FSB_2.yml
