@@ -1,0 +1,55 @@
+band-id: US_902_928_CUSTOM_VIASAT
+uplink-channels:
+- frequency: 902300000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 0
+- frequency: 902500000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 0
+- frequency: 902700000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 0
+- frequency: 902900000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 0
+- frequency: 903100000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 1
+- frequency: 903300000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 1
+- frequency: 903500000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 1
+- frequency: 903700000
+  min-data-rate: 0
+  max-data-rate: 3
+  radio: 1
+lora-standard-channel:
+  frequency: 903000000
+  data-rate: 4
+  radio: 0
+dwell-time:
+  uplinks: true
+  downlinks: false
+  duration: 400ms
+radios:
+- enable: true
+  chip-type: SX1257
+  frequency: 902700000
+  rssi-offset: -166
+  tx:
+    min-frequency: 923000000
+    max-frequency: 928000000
+- enable: true
+  chip-type: SX1257
+  frequency: 903400000
+  rssi-offset: -166
+clock-source: 1
