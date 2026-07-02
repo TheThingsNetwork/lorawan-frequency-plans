@@ -929,3 +929,22 @@
   gateways: true
   country-codes: [ca, cr, ec, gy, mx, pa, pr, us]
   file: US_902_928_CUSTOM_VIASAT_FSB_2.yml
+
+- id: EU_863_870_2
+  band-id: EU_863_870
+  name: Europe 863-865 MHz (K-band, SF12 for RX2)
+  description: TTN Community Network frequency plan for Europe K-band
+  base-frequency: 868
+  gateways: true
+  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  file: EU_863_870_2.yml
+
+- id: EU_863_870_TTN_2
+  band-id: EU_863_870
+  name: Europe 863-865 MHz (K-band, SF9 for RX2 - recommended)
+  description: TTN Community Network frequency plan for Europe K-band, using SF9 for RX2
+  base-frequency: 868
+  base-id: EU_863_870_2
+  gateways: false
+  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  file: EU_863_870_TTN.yml
