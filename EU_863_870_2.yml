@@ -62,7 +62,7 @@ lora-standard-channel:
   data-rate: 6
   radio: 0
 fsk-channel:
-  frequency: 864800000
+  frequency: 864400000
   data-rate: 7
   radio: 0
 radios:
