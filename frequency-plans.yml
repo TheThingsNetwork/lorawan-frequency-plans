@@ -948,3 +948,21 @@
   gateways: false
   country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
   file: EU_863_870_TTN.yml
+
+- id: EU_863_870_3
+  band-id: EU_863_870
+  name: Europe 863-865 MHz 3 (K-band, SF12 for RX2)
+  description: TTN Community Network frequency plan for Europe K-band
+  base-frequency: 868
+  gateways: true
+  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  file: EU_863_870_3.yml
+
+- id: EU_863_870_4
+  band-id: EU_863_870
+  name: Europe 863-865 MHz 4 (K-band, SF12 for RX2)
+  description: TTN Community Network frequency plan for Europe K-band
+  base-frequency: 868
+  gateways: true
+  country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
+  file: EU_863_870_4.yml
