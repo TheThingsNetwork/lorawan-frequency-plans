@@ -60,11 +60,11 @@ downlink-channels:
 lora-standard-channel:
   frequency: 863300000
   data-rate: 6
-  radio: 1
+  radio: 0
 fsk-channel:
   frequency: 863800000
   data-rate: 7
-  radio: 1
+  radio: 0
 radios:
 - enable: true
   chip-type: SX1257
